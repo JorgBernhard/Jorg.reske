@@ -8,7 +8,7 @@
 }
 
 #main h1 {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 .center1 {
@@ -47,7 +47,7 @@
 
 .header a {
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-left: 15px;
   color: white;
   cursor: pointer;
@@ -63,7 +63,7 @@
 }
 .nome {
   width: 40vw;
-  font-size: 5rem;
+  font-size: 4rem;
   margin-top: -40%;
   margin-left: 30%;
   color: white;
