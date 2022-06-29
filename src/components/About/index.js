@@ -31,7 +31,7 @@ export default function About() {
     return (
         <div id="about">
 
-            <h1>About me Wall</h1>
+            <h1>About my Wall</h1>
 
             <Swiper
                 slidesPerView={window.screen.width < 800 ? 1 : 2}
