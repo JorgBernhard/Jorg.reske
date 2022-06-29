@@ -20,10 +20,10 @@
     justify-content: space-between;
     width: 90%;
     height: 80%;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(22, 22, 22, 0.8);
     border-radius: 25px;
     padding: 60px;
-    color:rgb(179, 203, 255)
+    color:rgb(255, 255, 255)
 
 }
 .left {
@@ -33,7 +33,7 @@
 .name {
     font-size: 6rem;
     margin-bottom: 20px;
-    color: rgb(0, 140, 255);
+    color: rgb(255, 255, 255);
 }
 .beruf {
     font-size: 4rem;
@@ -78,8 +78,8 @@
 }
 .free {
     font-size: 5rem;
-    color: goldenrod;
-    margin-left: 200px;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 .mapa{
    
@@ -98,7 +98,7 @@
 }
 .data-info {
     font-size: 4rem;
-    color: rgb(209, 209, 209);
+    color: rgb(255, 255, 255);
     margin-bottom: 120px;
     margin-right: 10px;
 }
