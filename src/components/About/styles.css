@@ -80,7 +80,7 @@
 }
 .English {
     all:unset;
-    font-size: 2.4rem;
+    font-size: 2rem;
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(3, 46, 82);
@@ -93,7 +93,7 @@
 }
 .Portugues {
     all:unset;
-    font-size: 2.4rem;
+    font-size: 2rem;
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(3, 46, 82);
@@ -121,18 +121,18 @@
     border-radius: 25px;
 }
 .swiper-slide h3 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: rgb(255, 255, 255);
 }
 .swiper-slide p {
     width: 90%;
-    font-size: 2.4rem;
+    font-size: 2rem;
     text-align: justify;
     color: rgb(255, 255, 255);
 }
 .swiper-slide .dark {
     width: 90%;
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
     text-align: justify;
     color: rgb(255, 255, 255);
