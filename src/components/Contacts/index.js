@@ -12,7 +12,7 @@ export default function Contacts() {
                 <div className="left">
                     <h2 className="name">Jörg Bernhard</h2>
                     <h2 className="beruf">UX / UI Designer</h2>
-                    <h2 className="number">My handy: +55 (84) 99968-5830</h2>
+                    <h2 className="number">My Mobile Phone: +55 (84) 99968-5830</h2>
                     
                     <a className="email" href="mailto:jorg.reske@gmail.com" alt="email">My Email: jorg.reske@gmail.com</a>
                     <a className="github" target="_blank" rel="noreferrer" href="https://github.com/JorgBernhard" alt="portfolio">Github</a>

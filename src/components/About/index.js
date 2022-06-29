@@ -53,15 +53,15 @@ export default function About() {
                     <p className="dark">Some Stuff about me then...</p>
                     <p>
                     Hallo, my name is Jorg, Working over 8 years with design and the role of creating web, mobile 
-                    and product shapes for many companies. I’m focused on working with a team and achived excelent 
-                    results.<br></br> <br></br>At the moment I’m working freelance with a smale team creating interfaces to connect 
-                    diferent programm’s with each other. It comes handy that I have a Diplom in Fornt-end and Back-end 
-                    Development as well. I’m happy to join your team. 
+                    and product shapes for many companies. I am focused on working with a team and achieved excelent 
+                    results.<br></br> <br></br>At the moment I am working freelancer with a small team creating interfaces to connect 
+                    diferent programms with each other. It comes handy that I have a Diplom in Front-end and Back-end 
+                    Development as well. I am happy to join your team. 
                     <br></br><br></br>
                     I startet in 1996 teaching Photoshop, Flash, Dream Weaver etc. Created over 100 aplications 
                     like web-pages, Logos and Art-creations for companies world wide. 
-                    Beeing a UX/UI makes me happy. Creating, designing and showing how you can change the world 
-                    brigns me to life.
+                    Being a UX/UI makes me happy. Creating, designing and showing how you can change the world 
+                    brings me to life.
                     </p>
                 </SwiperSlide>
                 <SwiperSlide>
