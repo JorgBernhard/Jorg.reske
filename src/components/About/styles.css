@@ -13,14 +13,14 @@
 }
 
 #about h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     margin-bottom: 40px;
 
     color: white;
 }
 .img-box .foto-J {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -30,8 +30,8 @@
     border: 1px solid rgb(0, 0, 0);;   
 }
 .img-box .foto{
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -41,8 +41,8 @@
     border: 1px solid rgb(0, 0, 0);;   
 }
 .img-box .foto-C {
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 250px;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -53,8 +53,8 @@
     border: 1px solid rgb(0, 0, 0);;   
 }
 .img-box .foto-P {
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: 300px;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -70,7 +70,7 @@
 }
 
 .about-us-links img {
-    margin-right: 15px;
+    margin-right: 5px;
     height: 4vh !important;
     cursor: pointer;
 }
@@ -80,7 +80,7 @@
 }
 .English {
     all:unset;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(3, 46, 82);
@@ -93,7 +93,7 @@
 }
 .Portugues {
     all:unset;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(3, 46, 82);
@@ -115,24 +115,24 @@
     justify-content: center;
     gap: 4%;
 
-    padding: 60px;
+    padding: 40px;
 
     background-color: rgba(97, 95, 94, 0.7);
     border-radius: 25px;
 }
 .swiper-slide h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(255, 255, 255);
 }
 .swiper-slide p {
     width: 90%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: justify;
     color: rgb(255, 255, 255);
 }
 .swiper-slide .dark {
     width: 90%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: justify;
     color: rgb(255, 255, 255);
@@ -168,7 +168,7 @@
     }
 
     .swiper-slide p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
 .ende {
@@ -177,7 +177,7 @@
     margin-top: 20px;
 }
 .feil img{
-    width: 60px;
+    width: 30px;
     margin-left: 90vw;
 }
 
