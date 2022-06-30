@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Main from './components/Main';
-import About from './components/About';
-import { BrowserRouter } from 'react-router-dom';
-import Projects from './components/Projects';
-import Contacts from './components/Contacts';
+import Header from './pages/Header/Header';
+import Main from './pages/Main/Main';
+import Wall from './pages/Wall/Wall';
+import Projects from './pages/Projects/Projects';
+import Contact from './pages/Contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Header />
     <Main />
-    <About />
-    <Projects/>
-    <Contacts />
-    </BrowserRouter>
+    <Wall /> 
+    <Projects />   
+    <Contact />
   </React.StrictMode>
 );
+

@@ -1,5 +1,5 @@
 {
-  "name": "w4y-website",
+  "name": "web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,11 +8,8 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-native-svg": "^12.3.0",
-    "react-qr-code": "^2.0.7",
-    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "swiper": "^8.2.4",
+    "swiper": "^8.2.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
