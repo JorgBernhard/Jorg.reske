@@ -1,0 +1,70 @@
+.nav-icon img {
+  height: 40px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  background-color: rgba(255, 255, 255, 0);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  top: 0px;
+  right: 100vw;
+  transition: 250ms;
+  z-index: 20;
+}
+
+
+.nav-menu.active {
+  right: 0px;
+  transition: 250ms;
+}
+
+.nav-menu-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1rem;
+  width: 100%;
+  
+}
+
+.nav-menu-items .links-header {
+  padding: 1rem 1rem;
+}
+
+.nav-menu-items .links-header:first-child {
+  margin-top: 3rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(0, 153, 255);
+}
+
+.nav-menu span {
+  cursor: pointer;
+  position: absolute;
+  right: 1.8rem;
+  top: 0.8rem;
+  color: rgba(0, 0, 0, 0);
+  font-size:2.4rem;
+}
+
+.nav-menu span:hover {
+  color: rgba(146, 146, 146, 0);
+}

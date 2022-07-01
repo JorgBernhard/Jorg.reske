@@ -1,0 +1,184 @@
+#wall {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 46, 82);
+    background-image: url('../../assets/kork-wall.png');
+
+  background-size: cover;
+}
+
+#wall h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+    color: white;
+}
+
+.img-box .foto-J {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    border-radius: 20%;
+    border: 1px solid rgb(3, 46, 82);   
+}
+.img-box .foto-skills {
+    width: 450px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 25px;
+    border: 1px solid rgb(3, 46, 82);
+}
+.img-box .foto-cv {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    border-radius: 25px;
+    border: 1px solid rgb(3, 46, 82);  
+}
+.img-box .foto-docu {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    border-radius: 25px;
+    border: 1px solid rgb(3, 46, 82); 
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 5rem;
+}
+.wall-links {
+    display: flex;
+    align-self: center;
+}
+
+.wall-links img {
+    margin-right: 7px;
+    height: 6vh !important;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Documents {
+    display: flex;
+    gap: 20px; 
+}
+.English {
+    all:unset;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(3, 46, 82);
+    color:white;
+    cursor: pointer;
+   
+}
+.English:hover {
+    background-color: rgb(0, 92, 158);
+}
+.Portugues {
+    all:unset;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(3, 46, 82);
+    color:white;
+    cursor: pointer;
+}
+.Portugues:hover {
+    background-color: rgb(0, 92, 158);
+}
+.swiper {
+  width: 95%;
+  height: 76%;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+
+    background-color: rgba(90, 60, 35, 0.7);
+    border-radius: 25px;
+}
+.swiper-slide h3 {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+.swiper-slide p {
+    width: 90%;
+    font-size: 1.rem;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+.swiper-slide .dark {
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    color:rgb(255, 255, 255);
+}
+
+.swiper-button-next:after:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 800px) {
+    .swiper {
+        width: 80%;
+    }
+
+    .swiper-slide {
+        padding: 30px;
+    }
+
+    .swiper-slide p {
+        font-size: 1rem;
+    }
+}
+.ende {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.feil img{
+    width: 38px;
+    margin-left: 95vw;
+}
+
