@@ -20,9 +20,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 60%;
-    height: 80%;
-    background-color: rgba(0, 60, 110, 0.44);
+    width: 70%;
+    height: 60%;
+    background-color: rgba(0, 60, 110, 0.697);
     border-radius: 25px;
     padding: 60px;
     color:rgb(255, 255, 255)
@@ -36,7 +36,7 @@
 .name {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: rgb(0, 61, 110);
+    color: rgb(169, 216, 255);
 }
 
 .number {
@@ -70,6 +70,12 @@
 }
 .linked:hover {
     color:rgb(0, 61, 110);
+}
+.free {
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    transform: rotate(-15deg);
+    color:rgb(255, 221, 0)
 }
 .right {
     display: flex;

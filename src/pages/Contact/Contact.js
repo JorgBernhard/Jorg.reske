@@ -13,6 +13,7 @@ export default function Contact() {
                     <a className="email" href="mailto:jorg.reske@gmail.com" alt="email">My Email: jorg.reske@gmail.com</a>
                     <a className="github" target="_blank" rel="noreferrer" href="https://github.com/JorgBernhard" alt="portfolio">My Github: https://github.com/JorgBernhard</a>
                     <a className="linked" target="_blank" rel="noreferrer" href={"https://www.linkedin.com/in/jorg-reske-b327699b/"} alt="linked">My LinkedIn: https://www.linkedin.com/in/jorg-reske-b327699b/</a>
+                    <h4 className="free">Freelancer Jobs please contact me!</h4>
                 </div> 
                 <div className="right"> 
                     <h4 className="data-info-2">My Contact QR Code</h4>
