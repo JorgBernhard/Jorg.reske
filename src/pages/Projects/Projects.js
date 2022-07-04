@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
-import ArrowUp from '../../assets/icons/arrow-up.png'
 
 import Work01 from '../../assets/work01.png';
 import Work02 from '../../assets/work02.png';
@@ -53,9 +52,7 @@ export default function Projects() {
                     <img src={Work06} alt='1'/>
                 </SwiperSlide>
                </Swiper>
-            <div className="ende">
-            <a className="feil" href="# "><img src={ArrowUp} alt="up" /></a>
-           </div>
+       
         </div>
     );
 }

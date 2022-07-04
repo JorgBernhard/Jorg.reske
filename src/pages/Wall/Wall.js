@@ -25,7 +25,6 @@ import Work from '../../assets/softskills02.png'
 import Certificado from '../../assets/certificados.png';
 import PDF from '../../assets/PDF.png';
 import "./style.css";
-import ArrowUp from '../../assets/icons/arrow-up.png'
 
 export default function Wall() {
 
@@ -132,9 +131,7 @@ export default function Wall() {
                     </div>
                 </SwiperSlide>
             </Swiper>
-            <div className="ende">
-            <a className="feil" href="# "><img src={ArrowUp} alt="up" /></a>
-           </div>
+          
         </div>
     );
 }

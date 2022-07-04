@@ -1,5 +1,5 @@
 import './style.css';
-import MenuIcon from '../../assets/icons/menu.png';
+import MenuIcon from '../../assets/icons/menu-black.png';
 import { useState } from 'react';
 
 export default function NavBar() {

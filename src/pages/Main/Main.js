@@ -5,7 +5,7 @@ function Main() {
     <div id="main">
      <header className="main-header"></header>
       <div className='center1'>
-       
+           
         <div className="schrift">
           <h2 className="nome">Jörg Bernhard</h2>
           <h3 className="job">UX UI Designer</h3>

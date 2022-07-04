@@ -7,22 +7,23 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(0, 61, 110);
-    background-image: url('../../assets/mapa-natal.png');
+    background-image: url('../../assets/black-wall.jpg');
 
   background-size: cover;
 }
 
 #contact h1 {
-    color: rgb(0, 61, 110);
+    color: rgb(255, 255, 255);
     font-size: 3rem;
+    margin-top: -1rem;
 }
 .center {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 60%;
-    height: 80%;
-    background-color: rgba(0, 60, 110, 0.44);
+    width: 80%;
+    height: 60%;
+    background-color: rgba(68, 68, 68, 0.44);
     border-radius: 25px;
     padding: 60px;
     color:rgb(255, 255, 255)
@@ -35,59 +36,68 @@
 }
 .name {
     font-size: 3rem;
+    margin-top: -2rem;
     margin-bottom: 20px;
-    color: rgb(0, 61, 110);
+    color: rgb(0, 195, 255);
 }
-
 .number {
     font-size: 1.5rem;
-    margin-bottom: 20px;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.send-email {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
 }
 
-.email {
-    all:unset;
+p {
     font-size: 1.5rem;
-    cursor: pointer;
-    margin-bottom: 20px;
+    font-weight: 100;
 }
-.email:hover {
-    color:rgb(0, 61, 110);
-}
-.github {
-    all:unset;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
-.github:hover {
-    color:rgb(0, 61, 110);
-}
-.linked {
-    all:unset;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
-.linked:hover {
-    color:rgb(0, 61, 110);
-}
+
 .right {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
 }
 .data-info-2 {
     font-size: 1.2rem;
     color: rgb(255, 255, 255);
-    margin-top: 50%;
-    margin-bottom: 20px;
-    margin-left: 60%;
-    transform: rotate(10deg);
+    margin-top: -10%;
+    margin-bottom: 20px; 
 }
 .QRCode-2 {
     width: 30%;
-    margin-left: 57%;
     filter: drop-shadow(0px 20px 20px rgba(43, 41, 41, 0.9));
-    transform: rotate(10deg);
+    margin-bottom: 2rem;
     
+}
+.github img{
+    all:unset;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.github img:hover {
+    width: 4.2rem;
+    height: 4.2rem;
+}
+.linked img{
+    all:unset;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.linked img:hover {
+    width: 4.2rem;
+    height: 4.2rem;
 }
