@@ -59,10 +59,7 @@
   background-size: cover;
 }
   
-@media only screen and (max-width: 800px) {
-#main{
-    flex-direction: column;
-}
+
 
 #main h1 {
   font-size: 3rem;
@@ -74,7 +71,7 @@
   align-items: flex-start;
   justify-content: center;
 }    
-}
+
 .schrift {
   display: flex;
   flex-direction: column;
@@ -113,7 +110,7 @@
 .QRCode {
   position: absolute;
   width: 8%;
-  margin-left: 48%;
+  margin-left: 38%;
   margin-top: 8%;
   transform: rotate(10deg);
 }
