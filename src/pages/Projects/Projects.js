@@ -11,6 +11,8 @@ import Work03 from '../../assets/work03.png';
 import Work04 from '../../assets/work04.png';
 import Work05 from '../../assets/work05.png';
 import Work06 from '../../assets/work06.png';
+import Work07 from '../../assets/web-eco-page.png';
+import Work08 from '../../assets/w4y.png';
 
 export default function Projects() {
     return (
@@ -41,6 +43,12 @@ export default function Projects() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={Work03} alt='1'/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={Work07} alt='1'/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={Work08} alt='1'/>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={Work05} alt='1'/>
