@@ -14,26 +14,26 @@
 
 #wall h1 {
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     margin-top: -2rem;
 
     color: white;
 }
 
 .img-box .foto-J {
-    width: 350px;
-    height: 350px;
+    width: 45rem;
+    height: 45rem;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content:center;
 
-    border-radius: 20%;
-    border: 1px solid rgb(3, 46, 82);   
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);   
 }
 .img-box .foto-skills {
-    width: 450px;
-    height: 320px;
+    width: 55rem;
+    height: 38rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,8 +42,8 @@
     border: 1px solid rgb(3, 46, 82);
 }
 .img-box .foto-cv {
-    width: 350px;
-    height: 350px;
+    width: 45rem;
+    height: 45rem;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -54,8 +54,8 @@
     border: 1px solid rgb(3, 46, 82);  
 }
 .img-box .foto-docu {
-    width: 350px;
-    height: 350px;
+    width: 45rem;
+    height: 45rem;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -69,28 +69,28 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 .wall-links {
     display: flex;
-    align-self: center;
+    align-items: center;
 }
 
 .wall-links img {
-    margin-right: 7px;
+    margin-right: 1rem;
     height: 6vh !important;
     border-radius: 10px;
     cursor: pointer;
 }
 .Documents {
     display: flex;
-    gap: 20px; 
+    gap: 2rem; 
 }
 .English {
     all:unset;
-    font-size: 1rem;
-    padding: 10px;
-    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
     background-color: rgb(3, 46, 82);
     color:white;
     cursor: pointer;
@@ -101,7 +101,7 @@
 }
 .Portugues {
     all:unset;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(3, 46, 82);
@@ -127,18 +127,19 @@
     border-radius: 25px;
 }
 .swiper-slide h3 {
-    font-size: 1rem;
+    font-size:2rem;
     color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
 }
 .swiper-slide p {
     width: 90%;
-    font-size: 1.rem;
+    font-size: 2rem;
     text-align: justify;
     color: rgb(255, 255, 255);
 }
 .swiper-slide .dark {
     width: 90%;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 700;
     text-align: justify;
     color: rgb(255, 255, 255);
@@ -170,7 +171,7 @@
     }
 
     .swiper-slide p {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
 .ende {

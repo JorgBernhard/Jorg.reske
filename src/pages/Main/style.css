@@ -1,70 +1,14 @@
-.Main {
-  text-align: center;
-}
-
-.Main-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .Main-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.Main-header {
-  background-color: #cedeff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(8px + 2vmin);
-  color: white;
-}
-
-.Main-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-#main {
-  width: 100%;
-  height: 100vh;
-
-  display: flex;
-  flex-direction: row;
-
-}
-
-#main h1 {
-  font-size: 4rem;
-}
 
 .center1 {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-  background-image: url('../../assets/Jorg-work-2.gif');
-
+  background-image: url('../../assets/Jorg-work.png');
   background-size: cover;
 }
-  
-
-
-#main h1 {
-  font-size: 3rem;
-}
-  
+   
 .center {
   width: 100%;
   height: 50%;
@@ -113,4 +57,10 @@
   margin-left: 38%;
   margin-top: 8%;
   transform: rotate(10deg);
+}
+@media only screen and (max-width: 1400px) {
+  .QRCode {
+    margin-left: 36%;
+    margin-top: 8%;
+  }
 }
