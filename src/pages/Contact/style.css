@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(0, 61, 110);
-    background-image: url('../../assets/black-wall.jpg');
+    background-image: url('../../assets/work-srike.png');
 
   background-size: cover;
 }
@@ -24,7 +24,7 @@
     justify-content: space-between;
     width: 80%;
     height: 80%;
-    background-color: rgba(68, 68, 68, 0.44);
+    background-color: rgba(2, 27, 44, 0.7);
     border-radius: 25px;
     padding: 60px;
     color:rgb(255, 255, 255)

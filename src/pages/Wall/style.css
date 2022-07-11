@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(3, 46, 82);
-    background-image: url('../../assets/black-wall.jpg');
+    background-image: url('../../assets/work-srike.png');
 
   background-size: cover;
 }
@@ -21,8 +21,8 @@
 }
 
 .img-box .foto-J {
-    width: 45rem;
-    height: 45rem;
+    width: 35rem;
+    height: 35rem;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -123,7 +123,7 @@
     justify-content: center;
     padding: 0px;
 
-    background-color: rgba(107, 107, 107, 0.7);
+    background-color: rgba(2, 27, 44, 0.7);
     border-radius: 25px;
 }
 .swiper-slide h3 {
