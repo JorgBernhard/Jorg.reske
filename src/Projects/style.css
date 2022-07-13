@@ -28,20 +28,23 @@
         font-size: 8rem; 
     }
   }
-.swiper {
-margin-top: 2rem;
+.Swiper {
+  margin-top: 2rem;
+  margin-left: -6rem;
+
 }
 .mySwiper {
+    
     width: 90%;
-    height: 90%;
+    height: 100%;
     
   }
   .mySwiper img {
-    width:100%;
+    width:92%;
     height: 100%;
    
     border: 5rem solid rgba(44, 44, 44, 0.5);
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.);
     
   }
