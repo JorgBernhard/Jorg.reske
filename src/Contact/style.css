@@ -49,21 +49,37 @@ h3 {
     font-size: 3.4rem;
     color: rgb(192, 192, 192);
 }
+@media only screen and (max-width: 1400px) {
+    h3 {
+        font-size: 2rem; 
+    }
+  }
 h4 {
     margin-top: 6rem;
     margin-left: 8rem;
     font-size: 3rem;
     color: darkgrey;
 }
+@media only screen and (max-width: 1400px) {
+    h4 {
+        font-size: 2rem; 
+    }
+  }
 .emailOrg {
     margin-top: 3rem;
 }
+
 .send-email {
     margin-left: 8rem;
     font-size: 3rem;
     color: darkgrey;
     
 }
+@media only screen and (max-width: 1400px) {
+    .send-email {
+        font-size: 2rem; 
+    }
+  }
 .logos {
     display: flex;
     flex-direction: column;
@@ -91,6 +107,11 @@ img {
     font-size: 3rem;
     color: darkgrey;
 }
+@media only screen and (max-width: 1400px) {
+    .github {
+        font-size: 2rem; 
+    }
+  }
 .logo2 {
     display: flex;
     flex-direction: row;
@@ -108,3 +129,8 @@ img {
     font-size: 3rem;
     color: darkgrey;
 }
+@media only screen and (max-width: 1400px) {
+    .linked {
+        font-size: 2rem; 
+    }
+  }
