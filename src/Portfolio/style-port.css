@@ -106,7 +106,7 @@
     color:darkgrey;
     padding: 0.8rem;
     border-radius: 10px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(32, 32, 32);
     
 }
 @media only screen and (max-width: 1400px) {
@@ -125,7 +125,7 @@
     color:darkgrey;
     padding: 0.8rem;
     border-radius: 10px;
-    background-color: rgb(20, 20, 20);
+    background-color:rgb(32, 32, 32);
 }
 @media only screen and (max-width: 1400px) {
     .button02 {
@@ -143,7 +143,7 @@
     color:darkgrey;
     padding: 0.8rem;
     border-radius: 10px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(32, 32, 32);
 }
 @media only screen and (max-width: 1400px) {
     .button03 {
@@ -161,7 +161,7 @@
     color:darkgrey;
     padding: 0.8rem;
     border-radius: 10px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(32, 32, 32);
 }
 @media only screen and (max-width: 1400px) {
     .button04 {
@@ -180,7 +180,7 @@
     color:darkgrey;
     padding: 0.8rem;
     border-radius: 10px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(32, 32, 32);
     
 }
 @media only screen and (max-width: 1400px) {
@@ -199,7 +199,7 @@
     color:darkgrey;
     padding: 0.8rem;
     border-radius: 10px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(32, 32, 32);
 }
 @media only screen and (max-width: 1400px) {
     .button06 a{
@@ -217,7 +217,7 @@
     color:darkgrey;
     padding: 0.8rem;
     border-radius: 10px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(32, 32, 32);
 }
 @media only screen and (max-width: 1400px) {
     .button07 a{
