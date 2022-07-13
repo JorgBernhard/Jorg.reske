@@ -1,0 +1,271 @@
+.Portfolio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(80, 80, 80);
+    background-size: cover;
+}
+
+.backgroundPortfolio {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url('../assets/office.png');
+    background-size: cover;
+}
+
+.portfolioHeader {
+    font-size: 10rem;
+    color: rgb(255, 136, 0);
+    margin-left: 2rem;
+    margin-top:2rem;
+}
+@media only screen and (max-width: 1400px) {
+    .portfolioHeader {
+        font-size: 8rem; 
+    }
+  }
+.CenterPortfolio {
+    all:unset;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.leftSideP {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.portfolioJorg {
+    position: absolute;
+    width: 25rem;
+    margin-left: 6rem;
+    margin-top: -24rem;
+    border: solid 0.5rem rgba(90, 90, 90, 1);
+    border-radius: 50%;
+    transform: rotate(25deg);
+    z-index: 10;
+}
+@media only screen and (max-width: 1400px) {
+    .portfolioJorg {
+        width: 20rem;
+        margin-top: -18rem;
+    }
+  }
+.portfolioText {
+    font-size: 2rem;
+    font-style: inherit;
+    color: darkgrey;
+    width: 30rem;
+    margin-left: 18rem;
+    margin-top: 26rem;
+    padding: 1rem 3rem 1rem 3rem;
+    
+    background-color: rgba(90, 90, 90, 0.246);
+    border: solid 0.5rem rgba(90, 90, 90, 1);
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1400px) {
+    .portfolioText {
+        font-size: 1.6rem;
+        margin-left: 16rem;
+        margin-top: 20rem;
+    }
+  }
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    margin-left: 6rem;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Buttons {
+    width: 40rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    gap: 1rem;
+   
+    }
+  }
+.button01 {  
+    all:unset;
+    font-size: 2rem;
+    text-align: center;
+    color:darkgrey;
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    
+}
+@media only screen and (max-width: 1400px) {
+    .button01 {
+     font-size: 1.6rem;
+    }
+  }
+.button01:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 121, 121);
+}
+.button02 {
+    all:unset;
+    font-size: 2rem;
+    text-align: center;
+    color:darkgrey;
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+}
+@media only screen and (max-width: 1400px) {
+    .button02 {
+     font-size: 1.6rem;
+    }
+  }
+.button02:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 121, 121);
+}
+.button03 {
+    all:unset;
+    font-size: 2rem;
+    text-align: center;
+    color:darkgrey;
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+}
+@media only screen and (max-width: 1400px) {
+    .button03 {
+     font-size: 1.6rem;
+    }
+  }
+.button03:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 121, 121);
+}
+.button04 {
+    all:unset;
+    font-size: 2rem;
+    text-align: center;
+    color:darkgrey;
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+}
+@media only screen and (max-width: 1400px) {
+    .button04 {
+     font-size: 1.6rem;
+    }
+  }
+.button04:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 121, 121);
+}
+
+.button05 {
+    all:unset;
+    font-size: 2rem;
+    text-align: center;
+    color:darkgrey;
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    
+}
+@media only screen and (max-width: 1400px) {
+    .button05 a{
+     font-size: 1.6rem;
+    }
+  }
+.button05:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 121, 121);
+}
+.button06 {
+    all:unset;
+    font-size: 2rem;
+    text-align: center;
+    color:darkgrey;
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+}
+@media only screen and (max-width: 1400px) {
+    .button06 a{
+     font-size: 1.6rem;
+    }
+  }
+.button06:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 121, 121);
+}
+.button07 {
+    all:unset;
+    font-size: 2rem;
+    text-align: center;
+    color:darkgrey;
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+}
+@media only screen and (max-width: 1400px) {
+    .button07 a{
+     font-size: 1.6rem;
+    }
+  }
+.button07:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 121, 121);
+}
+.rechte {
+    display: flex;
+    flex-direction: column;
+    margin-top: -74rem;
+    margin-left: 68rem;
+    text-align: justify;
+    width: 40vw;
+}
+@media only screen and (max-width: 1400px) {
+    .rechte {
+    margin-left: 56rem;
+    margin-top: -64rem;
+    }
+  }
+.rightSideP {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+}
+.text-header {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(212, 212, 212);
+    margin-bottom: 4rem;
+}
+@media only screen and (max-width: 1400px) {
+    .text-header {
+     font-size: 2rem;
+    }
+  }
+.rechte span {
+    
+    font-size: 2.4rem;
+    color: rgb(212, 212, 212);
+}
+@media only screen and (max-width: 1400px) {
+    .rechte span {
+     font-size: 1.6rem;
+    }
+  }

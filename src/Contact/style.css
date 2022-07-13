@@ -1,0 +1,110 @@
+.Contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(80, 80, 80);
+    background-size: cover;
+}
+.contact-header {
+    font-size: 10rem;
+    color: rgb(255, 136, 0);
+    margin-left: 2rem;
+    margin-top:2rem;
+}
+@media only screen and (max-width: 1400px) {
+    .contact-header {
+        font-size: 8rem; 
+    }
+  }
+.Background-contact {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+   
+    background-image: url('../assets/contact.png');
+    background-size: cover;
+}
+
+.Center-contact {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.left-side-contact {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    
+       
+}
+h3 {
+    margin-top: 6rem;
+    margin-left: 8rem;
+    font-size: 3.4rem;
+    color: rgb(192, 192, 192);
+}
+h4 {
+    margin-top: 6rem;
+    margin-left: 8rem;
+    font-size: 3rem;
+    color: darkgrey;
+}
+.emailOrg {
+    margin-top: 3rem;
+}
+.send-email {
+    margin-left: 8rem;
+    font-size: 3rem;
+    color: darkgrey;
+    
+}
+.logos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+   
+}
+.logo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5rem;
+}
+
+img {
+    width: 5rem;
+    margin-left: 8rem;
+    margin-top: -1rem;
+    padding: 0.4rem;
+ 
+}
+
+.github {
+    height: 5rem;
+    justify-content: center;
+    font-size: 3rem;
+    color: darkgrey;
+}
+.logo2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5rem;
+    padding: 0.4rem;
+}
+img {
+    width: 5rem;
+ 
+}
+.linked {
+    height: 5rem;
+    justify-content: center;
+    font-size: 3rem;
+    color: darkgrey;
+}

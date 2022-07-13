@@ -1,0 +1,83 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(80, 80, 80);
+    background-size: cover;
+}
+
+.Background {
+    width: 80vw;
+    height: 100vh;
+     display: flex;
+    flex-direction: row;
+    background-image: url('../assets/jorg-background-graylight.png');
+    background-size: cover;
+}
+
+.Center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+.jorg {
+    font-size: 8rem;
+    font-family: 500;
+
+    color: rgb(255, 136, 0);
+
+    margin-left: -10rem;
+    margin-top: -10rem;
+    transform: rotate(-90deg);
+}
+@media only screen and (max-width: 1400px) {
+    .jorg {
+    font-size: 7rem;
+    margin-left: -14rem;
+    margin-top: -12rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .designer{
+    font-size: 5rem;
+    margin-top: -10rem;
+    }
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.designer {
+    max-width: 80%;
+    font-size: 20rem;
+    font-family: 500;
+    
+    color: rgba(153, 153, 153, 0.08);
+    
+    margin-top: -23rem;
+}
+    @media only screen and (max-width: 1400px) {
+        .designer{
+        font-size: 14rem;
+        margin-top: -16rem;
+        }
+    }
+    @media only screen and (max-width: 1100px) {
+        .designer{
+        font-size: 8rem;
+        margin-top: -16rem;
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        .designer{
+        font-size: 6rem;
+        margin-top: -16rem;
+        }
+    }
