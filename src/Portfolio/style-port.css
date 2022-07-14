@@ -48,9 +48,9 @@
 
 .portfolioJorg {
     position: absolute;
-    width: 25rem;
+    width: 20rem;
     margin-left: 6rem;
-    margin-top: -24rem;
+    margin-top: -18rem;
     border: solid 0.5rem rgba(90, 90, 90, 1);
     border-radius: 50%;
     transform: rotate(25deg);
@@ -58,8 +58,8 @@
 }
 @media only screen and (max-width: 1400px) {
     .portfolioJorg {
-        width: 20rem;
-        margin-top: -18rem;
+        width: 16rem;
+        margin-top: -14rem;
     }
   }
 .portfolioText {
@@ -67,8 +67,8 @@
     font-style: inherit;
     color: darkgrey;
     width: 30rem;
-    margin-left: 18rem;
-    margin-top: 26rem;
+    margin-left: 14rem;
+    margin-top: 19rem;
     padding: 1rem 3rem 1rem 3rem;
     
     background-color: rgba(90, 90, 90, 0.246);
@@ -77,9 +77,9 @@
 }
 @media only screen and (max-width: 1400px) {
     .portfolioText {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         margin-left: 16rem;
-        margin-top: 20rem;
+        margin-top: 14rem;
     }
   }
 .Buttons {
@@ -87,12 +87,12 @@
     flex-direction: column;
     width: 40rem;
     margin-left: 6rem;
-    margin-top: 5rem;
-    gap: 2rem;
+    margin-top: 3rem;
+    gap: 1rem;
 }
 @media only screen and (max-width: 1400px) {
     .Buttons {
-    width: 40rem;
+    width: 30rem;
     margin-left: 6rem;
     margin-top: 2rem;
     gap: 1rem;
@@ -111,7 +111,7 @@
 }
 @media only screen and (max-width: 1400px) {
     .button01 {
-     font-size: 1.6rem;
+     font-size: 1.4rem;
     }
   }
 .button01:hover {
@@ -129,7 +129,7 @@
 }
 @media only screen and (max-width: 1400px) {
     .button02 {
-     font-size: 1.6rem;
+     font-size: 1.4rem;
     }
   }
 .button02:hover {
@@ -147,7 +147,7 @@
 }
 @media only screen and (max-width: 1400px) {
     .button03 {
-     font-size: 1.6rem;
+     font-size: 1.4rem;
     }
   }
 .button03:hover {
@@ -165,7 +165,7 @@
 }
 @media only screen and (max-width: 1400px) {
     .button04 {
-     font-size: 1.6rem;
+     font-size: 1.4rem;
     }
   }
 .button04:hover {
@@ -185,7 +185,7 @@
 }
 @media only screen and (max-width: 1400px) {
     .button05 a{
-     font-size: 1.6rem;
+     font-size: 1.4rem;
     }
   }
 .button05:hover {
@@ -203,7 +203,7 @@
 }
 @media only screen and (max-width: 1400px) {
     .button06 a{
-     font-size: 1.6rem;
+     font-size: 1.4rem;
     }
   }
 .button06:hover {
@@ -221,7 +221,7 @@
 }
 @media only screen and (max-width: 1400px) {
     .button07 a{
-     font-size: 1.6rem;
+     font-size: 1.4rem;
     }
   }
 .button07:hover {
@@ -238,8 +238,14 @@
 }
 @media only screen and (max-width: 1400px) {
     .rechte {
+    margin-left: 50rem;
+    margin-top: -56rem;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    .rechte {
     margin-left: 56rem;
-    margin-top: -64rem;
+    margin-top: -26rem;
     }
   }
 .rightSideP {
@@ -252,7 +258,7 @@
     font-size: 3rem;
     font-weight: 500;
     color: rgb(212, 212, 212);
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 @media only screen and (max-width: 1400px) {
     .text-header {
@@ -266,6 +272,6 @@
 }
 @media only screen and (max-width: 1400px) {
     .rechte span {
-     font-size: 1.6rem;
+     font-size: 1.4rem;
     }
   }
