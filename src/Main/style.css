@@ -64,6 +64,12 @@
         margin-top: -14rem;
         }
     }
+    @media only screen and (max-width: 1200px) {
+        .designer {
+        font-size: 11rem;
+        margin-top: -13rem;
+        }
+      }
     @media only screen and (max-width: 1100px) {
         .designer{
         font-size: 9rem;

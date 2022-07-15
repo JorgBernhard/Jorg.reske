@@ -82,6 +82,13 @@
         margin-top: 14rem;
     }
   }
+  @media only screen and (max-width: 1200px) {
+    .portfolioText {
+        font-size: 1.4rem;
+        margin-left: 14rem;
+        margin-top: 14rem;
+    }
+  }
 .Buttons {
     display: flex;
     flex-direction: column;
@@ -242,10 +249,10 @@
     margin-top: -56rem;
     }
   }
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (max-width: 1200px) {
     .rechte {
-    margin-left: 56rem;
-    margin-top: -26rem;
+    margin-left: 46rem;
+    margin-top: -50rem;
     }
   }
 .rightSideP {

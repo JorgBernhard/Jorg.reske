@@ -21,6 +21,13 @@
         width: 48%;
         height: 85%;
     }
+}
+@media only screen and (max-width: 1200px) {
+    .modal01 {
+        width: 52%;
+        height: 85%;
+        left: 45rem;
+    }
   }
 .modal01 img {
     margin-bottom: 2rem;
