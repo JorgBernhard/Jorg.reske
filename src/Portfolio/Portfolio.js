@@ -39,7 +39,7 @@ function Portfolio() {
                     <button className="button03" onClick={() => setSee(true) }>My Extra Curriculaes</button>
                     <Modal03 onClose={() => setSee(false)} show={see} />
 
-                    <button className="button04" onClick={() => setLook(true) }>My Tolls</button>
+                    <button className="button04" onClick={() => setLook(true) }>My Tools</button>
                     <Modal04 onClose={() => setLook(false)} show={look} />
 
                     <button className="button05"><a className="English" href={English} download="English">Download Resume English</a></button>
