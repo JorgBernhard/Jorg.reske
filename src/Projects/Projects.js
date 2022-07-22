@@ -8,7 +8,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 import Work01 from '../assets/work01.png';
 import Work02 from '../assets/work02.png';
 import Work03 from '../assets/work03.png';
-import Work04 from '../assets/work06.png';
+import Work04 from '../assets/work07.png';
 import Work05 from '../assets/w4y.png';
 
 
