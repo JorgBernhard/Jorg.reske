@@ -10,6 +10,7 @@ import Work02 from '../assets/work02.png';
 import Work03 from '../assets/work03.png';
 import Work04 from '../assets/work07.png';
 import Work05 from '../assets/w4y.png';
+import Work08 from '../assets/work08.png';
 
 
 function Projects() {
@@ -36,13 +37,16 @@ function Projects() {
                     modules={[EffectCoverflow, Pagination]}
                     className="mySwiper">
                 <SwiperSlide>
+                    <img src={Work08} alt='1'/>
+                </SwiperSlide>
+                <SwiperSlide>
                     <img src={Work01} alt='1'/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={Work02} alt='1'/>
+                    <img src={Work03} alt='1'/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={Work03} alt='1'/>
+                    <img src={Work02} alt='1'/>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={Work04} alt='1'/>
