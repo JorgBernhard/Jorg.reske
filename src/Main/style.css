@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(82, 82, 82);
     background-size: cover;
 }
 
@@ -14,6 +14,7 @@
     flex-direction: row;
     background-image: url('../assets/jorg-background-graylight.png');
     background-size: cover;
+    
 }
 
 .Center {
@@ -30,7 +31,7 @@
     font-size: 8rem;
     font-family: 500;
 
-    color: rgb(255, 136, 0);
+    color: orangered;
 
     margin-left: -10rem;
     margin-top: -10rem;
