@@ -12,7 +12,7 @@
     height: 100vh;
      display: flex;
     flex-direction: row;
-    background-image: url('../assets/background.png');
+    background-image: url('../assets/jorg-background-graylight.png');
     background-size: cover;
     
 }
