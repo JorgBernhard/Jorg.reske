@@ -1,0 +1,21 @@
+* {
+  background-color: rgb(41, 40, 40);
+}
+.Container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Background {
+  position: absolute;
+  margin-top:42rem;
+  width: 70vw;
+  height:70vh;
+ 
+  box-shadow: 2px 2px 8px 8px rgba(124, 124, 124, 0.5);
+  border-radius: 10px;
+}
+
