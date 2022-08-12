@@ -4,6 +4,7 @@ import './style.css';
 
 import Linked from '../assets/icons/linkedin-icon.svg';
 import Github from '../assets/icons/github-icon.svg';
+import QR from '../assets/QR.png'
 
 function Contact() {
  
@@ -37,10 +38,10 @@ function Contact() {
                       </div>
                   </div>
 
-                    <div ClassName="right-side-contact">
-                
-              </div>    
                   </div>
+                    <div ClassName="right-side-contact">
+                      <img className="QR" src={QR} alt="QR"></img>
+                    </div>    
               </div>
           
             </div>
