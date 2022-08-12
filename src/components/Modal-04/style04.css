@@ -43,12 +43,11 @@
     flex-direction: column;
     
 }
-
-.modalButton04 {
+.modalButton01 {
     all:unset;
     position: fixed;
-    right: 11.5%;
-    bottom: 4.5%;
+    right: 12.7%;
+    bottom: 5.4%;
     z-index: 1000;
     font-size: 3rem;
     color:rgb(34, 34, 34);
@@ -59,9 +58,9 @@
 }
 
 @media only screen and (max-width: 1400px) {
-    .modalButton04 {
+    .modalButton01 {
         font-size: 1.6rem;
-        right: 11.8%;
-        bottom: 7.4%;
+        right: 13.2%;
+    bottom: 8.6%;
     }
   }
