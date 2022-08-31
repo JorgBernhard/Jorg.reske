@@ -52,9 +52,9 @@
     font-size: 3rem;
     color:rgb(34, 34, 34);
     padding: 0.8rem;
-    background-color: rgb(255, 123, 0);
+    background-color: orangered;
     border-radius: 10px;
-    
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1400px) {

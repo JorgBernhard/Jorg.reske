@@ -147,7 +147,7 @@ img {
     width: 20rem;
     margin-top: 30rem;
     margin-left: auto;
-    background-color: orangered;
+    background-color: rgb(224, 204, 196);
     border-radius: 20px;
     border: solid 1rem darkgray;
 }

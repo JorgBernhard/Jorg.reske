@@ -11,7 +11,7 @@ import Work03 from '../assets/work03.png';
 import Work04 from '../assets/work07.png';
 import Work05 from '../assets/w4y.png';
 import Work08 from '../assets/work08.png';
-
+import HomeSecurity from '../assets/homesecurity.png';
 
 function Projects() {
  
@@ -36,6 +36,9 @@ function Projects() {
                     pagination={true}
                     modules={[EffectCoverflow, Pagination]}
                     className="mySwiper">
+                <SwiperSlide>
+                    <img src={HomeSecurity} alt='1'/>
+                </SwiperSlide>
                 <SwiperSlide>
                     <img src={Work08} alt='1'/>
                 </SwiperSlide>
