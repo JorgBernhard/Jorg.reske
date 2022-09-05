@@ -1,7 +1,7 @@
 .Container-design{
     display: flex;
     flex-direction: column;
-    background-image: url('../../assets/ground.jpg');
+    background-image: url('../../assets/fire-ice.png');
     background-size: cover;
     width: 100vw;
     height: 100vh;
