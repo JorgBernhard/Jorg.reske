@@ -1,0 +1,73 @@
+
+
+.nav-icon img {
+  height: 7rem;
+  position: fixed;
+  top: 0.1rem;
+  right: 0.5%;
+  cursor: pointer;
+  z-index: 21;
+}
+.nav-icon img:hover {
+  transform: rotate(22.5deg);
+}
+@media only screen and (max-width: 800px) {
+  .nav-icon img {
+    height: 3rem;
+   }}
+.nav-menu {
+  background-color: rgba(255, 255, 255, 0);
+  width: 100vw;
+  height: 6rem;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  align-items: center;
+  right: 100vw;
+  transition: 250ms;
+  z-index: 20;
+  
+}
+.nav-menu.active {
+  right: 0rem;
+  transition: 250ms;
+  
+}
+
+.nav-menu-items {
+  display: flex;
+  flex-direction: row;
+  margin-top: rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  
+}
+.nav-menu-items .links-header {
+  padding: 1rem 1rem;
+}
+
+.nav-menu-items .links-header:first-child {
+  margin-top: 0rem;
+}
+
+a {
+  font-family: 'Catamaran', sans-serif;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  color: rgb(255, 174, 0);
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  a {
+    font-size: 1.6rem;
+
+   }}
+
+a:hover {
+  color: rgb(255, 91, 31);
+}

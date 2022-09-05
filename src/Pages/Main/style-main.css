@@ -1,0 +1,101 @@
+.Container-main {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/Create-JB.png');
+    background-size: cover;
+    width: 99vw;
+    height: 99vh;
+    align-items: flex-start;
+    
+
+}
+.MyLogo {
+    display: flex;
+    flex-direction: column;
+    opacity: 50%;
+
+    width: 55rem;
+    height: 55rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    
+}
+@media (prefers-reduced-motion: no-preference) {
+    .MyLogo {
+      animation: App-logo-spin infinite 40s linear;
+    }
+  }
+@keyframes MyLogo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    .MyLogo {
+        width: 35rem;
+        height: 35rem;
+     }}
+
+.Center {
+    display: flex;
+    flex-direction: column;
+    opacity: 50%;
+    position: absolute;
+    width: 37rem;
+    height: 37rem;
+    margin-left: 13rem;
+    margin-top: 11rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .Center {
+      animation: Center-spin infinite 10s linear;
+    }
+  }
+@keyframes Center-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    .Center {
+        width: 24rem;
+        height: 24rem;
+        margin-left: 9.5rem;
+        margin-top: 7.5rem;
+     }}
+.Arte {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 8rem;
+    font-weight: 700;
+    color: rgb(255, 91, 31);
+
+    margin-bottom: -26rem;
+    margin-left: 86rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Arte {
+        font-size: 6rem;
+        margin-bottom: 2rem;
+        margin-left: 62rem;
+     }}
+.Jorg {
+    font-family: 'Aboreto', cursive;
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(255, 91, 31);
+    margin-top: 28rem;
+    margin-left: 130rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Jorg {
+        font-size: 4rem;
+        margin-left: 90rem;
+        margin-top: 4rem;
+       
+     }}

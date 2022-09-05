@@ -1,0 +1,251 @@
+.Container-aboutme {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/fire-ice.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+.AboutMe {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 8rem;
+    font-weight: 700;
+    color: orangered;
+
+    margin-top: 3rem;
+    margin-left: 36rem;
+    z-index: 10;
+}
+
+.App-logo {
+    height: 45vmin;
+    width: 45vmin;
+    margin-left: 3rem;
+    margin-top: -16rem;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
+    
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Qwitcher Grypen', cursive;
+    width: 36rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Buttons {
+    width: 27rem;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    gap: 0.5rem;
+   
+    }
+  }
+.button01 {  
+    all:unset;
+    font-size: 3.4rem;
+    text-align: center;
+    color:yellow;
+    padding: 0.4rem 0.0rem 0.4rem 0.0rem;
+    border-radius: 50px 0px 50px 0px;
+    background-color: rgba(255, 94, 0, 0);
+    
+}
+@media only screen and (max-width: 1400px) {
+    .button01 {
+      font-size: 2.4rem;
+    }
+  }
+.button01:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgba(121, 121, 121, 0);
+}
+.button02 {
+    all:unset;
+    font-size: 3.4rem;
+    text-align: center;
+    color:yellow;
+    padding: 0.4rem 0.0rem 0.4rem 0.0rem;
+    border-radius: 0px 50px 0px 50px;
+    background-color: rgba(255, 94, 0, 0);
+}
+@media only screen and (max-width: 1400px) {
+    .button02 {
+      font-size: 2.4rem;
+    }
+  }
+.button02:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgba(121, 121, 121, 0);
+}
+.button03 {
+    all:unset;
+    font-size: 3.4rem;
+    text-align: center;
+    color:yellow;
+    padding: 0.4rem 0.0rem 0.4rem 0.0rem;
+    border-radius: 50px 0px 50px 0px;
+    background-color: rgba(255, 94, 0, 0);
+}
+@media only screen and (max-width: 1400px) {
+    .button03 {
+      font-size: 2.4rem;
+    }
+  }
+.button03:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgba(121, 121, 121, 0);
+}
+.button04 {
+    all:unset;
+    font-size: 3.4rem;
+    text-align: center;
+    color:yellow;
+    padding: 0.4rem 0.0rem 0.4rem 0.0rem;
+    border-radius: 00px 50px 0px 50px;
+    background-color: rgba(255, 94, 0, 0);
+}
+@media only screen and (max-width: 1400px) {
+    .button04 {
+      font-size: 2.4rem;
+    }
+  }
+.button04:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgba(121, 121, 121, 0);
+}
+
+.button05 {
+    all:unset;
+    text-align: center;
+    padding: 0.4rem 0.0rem 0.4rem 0.0rem;
+    border-radius: 50px 0px 50px 0px;
+    background-color: rgba(255, 94, 0, 0);
+    
+}
+.button05 a{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 3.4rem;
+    color:yellow;
+
+}
+@media only screen and (max-width: 1400px) {
+    .button05 a{
+     font-size: 2.4rem;
+    }
+  }
+.button05 a:hover, .button05:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgba(121, 121, 121, 0);
+}
+.button06 {
+  all:unset;
+  text-align: center;
+  padding: 0.4rem 0.0rem 0.4rem 0.0rem;
+  border-radius: 0px 50px 0px 50px;
+  background-color: rgba(255, 94, 0, 0);
+}
+.button06 a{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 3.4rem;
+    color:yellow;
+}
+@media only screen and (max-width: 1400px) {
+    .button06 a{
+      font-size: 2.4rem;
+    }
+  }
+.button06 a:hover , .button06:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgba(121, 121, 121, 0);
+}
+.button07 {
+  all:unset;
+  text-align: center;
+  padding: 0.4rem 0.0rem 0.4rem 0.0rem;
+  border-radius: 50px 0px 50px 0px;
+  background-color: rgba(255, 94, 0, 0);
+}
+.button07 a{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 3.4rem;
+    color:yellow;
+}
+@media only screen and (max-width: 1400px) {
+    .button07 a{
+      font-size: 2.4rem;
+    }
+  }
+.button07 a:hover, .button07:hover  {
+    color: rgb(255, 0, 0);
+    background-color: rgba(121, 121, 121, 0);
+}
+
+.rechte {
+    display: flex;
+    flex-direction: column;
+    margin-top: -80rem;
+    margin-left: 68rem;
+    text-align: justify;
+    width: 50vw;
+    height: 80rem;
+}
+@media only screen and (max-width: 1400px) {
+    .rechte {
+    margin-left: 50rem;
+    margin-top: -50rem;
+    height: 48.5rem;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .rechte {
+    margin-left: 46rem;
+    margin-top: -50rem;
+    }
+  }
+.rightSideP {
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-header {
+    font-size: 4rem;
+    font-family: 'Aboreto', cursive;
+    font-weight: 500;
+    color: rgb(255, 208, 0);
+    margin-bottom: 3rem;
+}
+@media only screen and (max-width: 1400px) {
+    .text-header {
+     font-size: 2rem;
+    }
+  }
+.rechte span {
+    font-family: 'Aboreto', cursive;
+    font-size: 2.4rem;
+    color: rgb(255, 208, 0);
+    
+}
+@media only screen and (max-width: 1400px) {
+    .rechte span {
+     font-size: 1.4rem;
+    }
+  }

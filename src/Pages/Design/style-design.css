@@ -1,0 +1,352 @@
+.Container-design{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/ground.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+.Design {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 8rem;
+    font-weight: 700;
+    color: orangered;
+
+    margin-top: 3rem;
+    margin-left: 36rem;
+    z-index: 10;
+}
+.App-logo-design {
+    position: absolute;
+    height: 39vmin;
+    width: 39vmin;
+    margin-left: 3rem;
+    margin-top: 17.5rem;
+    pointer-events: none;
+  }
+  @media only screen and (max-width: 1400px) {
+    .App-logo-design {
+        margin-left: 3rem;
+    margin-top: 17rem;
+     }}
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo-design {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
+    
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.text-design {
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+    font-size: 2.4rem;
+    color: rgb(255, 208, 0);
+    margin-top: -6rem;
+    margin-left: 20rem;
+}
+@media only screen and (max-width: 1400px) {
+    .text-design {
+        font-size: 2rem;
+        margin-left: 14rem;
+     }}
+.Center-design {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 17rem;
+    height: 17rem;
+    margin-left: 13rem;
+    margin-top: 53rem;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+        .Center-design {
+          animation: Center-spin infinite 5s linear;
+        }
+      }
+    @keyframes Center-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(-360deg);
+        }
+      }
+      @media only screen and (max-width: 1400px) {
+        .Center-design {
+            width: 14rem;
+            height: 14rem;
+            margin-left: 8rem;
+            margin-top: 44rem;
+         }}
+.Cards1row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.Card-01 {
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    height: 28rem;
+    background-image: url('../../assets/old-paper.png');
+    background-size: cover;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 1400px) {
+    .Card-01 {
+        width: 20rem;
+        height: 16rem;
+     }}
+.Project-1 {
+    width: 28rem;
+    height: 18rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Project-1  {
+        width: 16rem;
+        height: 10rem;
+     }}
+.knopf01 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(125, 23, 9);
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    .knopf01  {
+        font-size:1.4rem;
+     }}
+.Card-02 {
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    height: 28rem;
+    background-image: url('../../assets/old-paper.png');
+    background-size: cover;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    .Card-02 {
+        width: 20rem;
+        height: 16rem;
+     }}
+.Project-2 {
+    width: 28rem;
+    height: 18rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Project-2  {
+        width: 16rem;
+        height: 10rem;
+     }}
+.knopf02 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(125, 23, 9);
+    
+    background-color: rgba(230, 64, 9, 0);
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    .knopf02 {
+        font-size:1.4rem;
+     }}
+.Card-03 {
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    height: 28rem;
+    background-image: url('../../assets/old-paper.png');
+    background-size: cover;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    .Card-03 {
+        width: 20rem;
+        height: 16rem;
+     }}
+.Project-3 {
+    width: 28rem;
+    height: 18rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Project-3 {
+        width: 16rem;
+        height: 10rem;
+     }}
+.knopf03 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(125, 23, 9);
+   
+    background-color: rgba(230, 64, 9, 0);
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    .knopf03  {
+        font-size:1.4rem;
+     }}
+.Cards2row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+.Card-04 {
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    height: 28rem;
+    background-image: url('../../assets/old-paper.png');
+    background-size: cover;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    .Card-04 {
+        width: 20rem;
+        height: 16rem;
+     }}
+.Project-4 {
+    width: 28rem;
+    height: 18rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Project-4  {
+        width: 16rem;
+        height: 10rem;
+     }}
+.knopf04 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(125, 23, 9);
+   
+    background-color: rgba(230, 64, 9, 0);
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    .knopf04  {
+        font-size:1.4rem;
+     }}
+.Card-05 {
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    height: 28rem;
+    background-image: url('../../assets/old-paper.png');
+    background-size: cover;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    .Card-05{
+        width: 20rem;
+        height: 16rem;
+     }}
+.Project-5 {
+    width: 28rem;
+    height: 18rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Project-5  {
+        width: 16rem;
+        height: 10rem;
+     }}
+.knopf05 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(125, 23, 9);
+   
+    background-color: rgba(230, 64, 9, 0);
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    .knopf05 {
+        font-size:1.4rem;
+     }}
+.Card-06 {
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    height: 28rem;
+    background-image: url('../../assets/old-paper.png');
+    background-size: cover;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    .Card-06 {
+        width: 20rem;
+        height: 16rem;
+     }}
+.Project-6 {
+    width: 28rem;
+    height: 18rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Project-6  {
+        width: 16rem;
+        height: 10rem;
+     }}
+.knopf06 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(125, 23, 9);
+   
+    background-color: rgba(230, 64, 9, 0);
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    .knopf06  {
+        font-size:1.4rem;
+     }}
+

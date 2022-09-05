@@ -1,5 +1,5 @@
 import React from 'react';
-import './style02.css';
+import '../style-modal.css';
 import ResumeEng from '../../assets/JorgReskeCVeng.png'
 
 
@@ -8,9 +8,9 @@ const Modal02 = props => {
         return null
     }
     return (
-        <div className="modal02">
-             <div className="modal-top02">
-                    <button className="modalButton01" onClick={props.onClose} >Close</button>
+        <div className="modal-center">
+             <div className="modal">
+                    <button className="ClickButton" onClick={props.onClose} >Close</button>
                 </div>
             <img src={ResumeEng} alt="resume"></img>
           
