@@ -1,20 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Main from './Pages/Main/Main';
+import Home from './Pages/Home/Home';
 import Header from './Pages/Header/Header';
-import AboutMe from './Pages/AboutMe/AboutMe';
-import Design from './Pages/Design/Design';
-import Contact from './Pages/Contact/Contact';
+import Resume from './Pages/Resume/Resume';
+import Work from './Pages/Work/Work';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
-    <Main />
-    <AboutMe />
-    <Design />
-    <Contact />
+    <Home />
+    <Resume />
+    <Work />
   </React.StrictMode>
 );
-

@@ -1,33 +1,25 @@
-import './style-header.css';
-import MenuIcon from '../../assets/menu-orange-left.png';
-import { useState } from 'react';
+import Jorg from '../../assets/Jorg.png';
+import './Header-style.css';
 
-export default function NavBar() {
-    const [sidebar, setSidebar] = useState(false);
-
-    const handleSidebar = () => setSidebar(!sidebar);
-
-    return (
-        <>
-            <div className='nav-icon'>
-                <img src={MenuIcon} alt='menu icon' onClick={handleSidebar} />
+function Header() {
+  return (
+    <div className="Container-main">
+        <div className="Head">
+          <div className="links-top">
+            <div className="texto">
+              <h2 className="Nome">Jörg Bernhard Reske</h2>
+              <img className="Jorg" src={Jorg} alt="jorg" />
+              <h2 className="Title">Product Management<br></br>Coach & Consultant</h2>
             </div>
-
-            <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-                    <span onClick={handleSidebar}></span>
-                <div className='nav-menu-items' onClick={handleSidebar}>
-                    <div className="right-header">
-                      
-                    </div>
-                    <div className="links-header">
-                        <a href='#main'>Home</a>
-                        <a href='#aboutme' >About Me</a>
-                        <a href='#design' >Design</a>
-                        <a href='#contact' >Contact</a>
-                    </div>
-                </div>
-            </nav>
-            
-        </>
-    );
+        </div>
+            <div className="links-fuss">
+                <a href='#home'>HOME</a>
+                <a href='#resume' >RESUME</a>
+                <a href='#work' >WORK SAMPLES</a>
+            </div>
+        </div>
+    </div>
+  );
 }
+
+export default Header;

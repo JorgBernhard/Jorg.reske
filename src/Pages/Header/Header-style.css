@@ -1,0 +1,88 @@
+.Head   {
+    position: fixed;
+    width: 18rem;
+    height: 90vh;
+    background-color: rgb(67, 69, 66);
+    z-index: 10;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    border-radius: 0.5rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Head {
+    position: fixed;
+    width: 18rem;
+    height: 90vh;
+    background-color: rgb(67, 69, 66);
+    z-index: 10;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    border-radius: 0.5rem;
+     }}
+.Head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0rem 0rem 1rem 0rem gray;
+}
+.links-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0rem;
+}
+.Nome {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color:  rgb(129, 129, 129);
+    margin-top: -0rem;
+    padding: 1rem;
+    background-color: rgb(46, 46, 46);
+    border-radius: 0.5rem;
+}
+.Jorg   {
+    width: 18rem;
+    height: 20rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+.Title  {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color:  rgb(129, 129, 129);
+    
+    padding: 1rem;
+    background-color: rgb(46, 46, 46);
+}
+.links-fuss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+a {
+    all: unset;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color:  rgb(129, 129, 129);
+    margin-bottom: 3.5rem;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    a {
+        all: unset;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 0.8rem;
+        color:  rgb(129, 129, 129);
+        margin-bottom: 1.5rem;
+        cursor: pointer;
+    }}
+a:hover {
+    color: rgb(29, 29, 29);
+}
