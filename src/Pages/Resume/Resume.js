@@ -81,7 +81,7 @@ function Resume() {
           <h5 className="PCD">PCD Web-Design</h5>
           <h5 className="CubosAcademy">CubosAcademy Fullstack Engineer</h5>
           <h5 className="EBAC">UX UI Web-Design</h5>
-          <h4 className="Languages">Languages</h4>
+       <h4 className="Languages">Languages</h4>
           <h5 className="German">German  •  Native</h5>
           <h5 className="English">English  •  almost native</h5>
           <h5 className="Portuguese">Portuguese  •  almost native</h5>
