@@ -1,4 +1,4 @@
-import English from '../../assets/JBR-PM-eng.pdf';
+import EnglishR from '../../assets/JBR-PM-eng.pdf';
 import './Resume-style.css';
 
 function Resume() {
@@ -6,7 +6,7 @@ function Resume() {
     <div id='resume'>
     <div className="Resume">
       <div className="Das-Resume">
-      <a className="English" href={English} download="English">Download Resume PDF</a>
+      <a className="English-Resume" href={EnglishR} download="EnglishR">Download Resume PDF</a>
         <h3 className="My-Resume">Jörg Bernhard Reske</h3>
         <h4 className="PM">Software Application Developer</h4>
         <h4 className="Position">Product Management  •  UX Design  •  Software Engineering</h4>
@@ -81,6 +81,11 @@ function Resume() {
           <h5 className="PCD">PCD Web-Design</h5>
           <h5 className="CubosAcademy">CubosAcademy Fullstack Engineer</h5>
           <h5 className="EBAC">UX UI Web-Design</h5>
+          <h4 className="Languages">Languages</h4>
+          <h5 className="German">German  •  Native</h5>
+          <h5 className="English">English  •  almost native</h5>
+          <h5 className="Portuguese">Portuguese  •  almost native</h5>
+          <h5 className="Spanish">Spanish  •  basic</h5>
           <div className="line"></div>
  </div>
     </div>

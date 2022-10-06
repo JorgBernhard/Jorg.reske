@@ -3,7 +3,7 @@
   flex-direction: column;
   background-color: rgb(234, 234, 234);
   width: 74%;
-  height:230vh;
+  height:250vh;
   margin-left: 22rem;
   align-items: center;
 }
@@ -13,10 +13,10 @@
     flex-direction: column;
     background-color: rgb(234, 234, 234);
     width: 65%;
-    height:200vh;
+    height:210vh;
     margin-left: 21.5rem;
      }}
-.English {
+.English-Resume {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 1.2rem;
@@ -26,7 +26,7 @@
   cursor: pointer;
 }
 @media only screen and (max-width: 1400px) {
-  .English {
+  .English-Resume {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 0.8rem;
@@ -35,7 +35,7 @@
     margin-left: -40rem;
     cursor: pointer;
      }}
-.English:hover {
+.English-Reume:hover {
   color:  rgb(16, 16, 16);
 }
 .Das-Resume {
@@ -437,7 +437,7 @@
     margin-left: 0rem;
     margin-top: -1rem;
      }}
-.EBAC {
+     .EBAC {
   width: 65%;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -456,6 +456,101 @@
     margin-left: 0rem;
     margin-top: -1rem;
      }}
+.Languages {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color:  rgb(132, 132, 132);
+    text-align: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    }
+    @media only screen and (max-width: 1400px) {
+      .Education {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        color:  rgb(132, 132, 132);
+        text-align: center;
+        margin-left: 0rem;
+        margin-top: 0rem;
+         }}
+.German {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+      }
+ @media only screen and (max-width: 1400px) {
+    .German {
+      width: 65%;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      color:  rgb(132, 132, 132);
+      margin-left: 0rem;
+      margin-top: -1rem;
+           }}
+.English {
+      width: 65%;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+      color:  rgb(132, 132, 132);
+      margin-left: 0rem;
+      margin-top: -1rem;
+}
+ @media only screen and (max-width: 1400px) {
+  .English {
+      width: 65%;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      color:  rgb(132, 132, 132);
+      margin-left: 0rem;
+      margin-top: -1rem;
+  }}
+  .Portuguese {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+  }
+  @media only screen and (max-width: 1400px) {
+    .Portuguese {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+    }}
+.Spanish {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+}
+ @media only screen and (max-width: 1400px) {
+   .Spanish {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+    }}
 .line {
   width: 70%;
   margin-top: 2rem;
