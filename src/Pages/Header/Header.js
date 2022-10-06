@@ -1,4 +1,6 @@
 import Jorg from '../../assets/Jorg.png';
+import HomeLogo from '../../assets/Home-logo.png';
+import BackLogo from '../../assets/Back-logo.png';
 import './Header-style.css';
 
 function Header() {
@@ -20,9 +22,14 @@ function Header() {
         </div>
         <div className="Linke-Seite">
           <div className="Footer">
-            <div className="Icons">
-             
-            </div>
+              <div className="Icons">   
+              <div className="Icons-Head"> 
+                <a  href="#home" alt="home"><img className="Home-Logo" src={HomeLogo} alt="home-logo" /></a><br></br>
+              </div>  
+              <div className="Icons-Fuss">
+                <a  href="#home" alt="home"><img className="Up" src={BackLogo} alt="git" /></a><br></br>
+              </div>    
+              </div>
           </div>
         </div>
     </div>

@@ -1,29 +1,29 @@
 .Head   {
     position: fixed;
-    width: 18rem;
+    width: 20rem;
     height: 100vh;
     background-color: rgb(67, 69, 66);
     z-index: 10;
     margin-top: -2rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
    
 }
 @media only screen and (max-width: 1400px) {
     .Head {
         position: fixed;
-        width: 18rem;
+        width: 20rem;
         height: 100vh;
         background-color: rgb(67, 69, 66);
         z-index: 10;
         margin-top: -2rem;
-        margin-left: 2rem;
+        margin-left: 0rem;
      }}
 .Head {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0rem 0rem 1rem 0rem gray;
+    
 }
 .links-top {
     display: flex;
@@ -43,8 +43,8 @@
    
 }
 .Jorg   {
-    width: 18rem;
-    height: 20rem;
+    width: 20rem;
+    height: 22rem;
     margin-top: -1rem;
     margin-bottom: -1rem;
 }
@@ -93,24 +93,52 @@ a:hover {
 }
 .Footer   {
     position: fixed;
-    width: 5rem;
+    width:6rem;
     height: 100vh;
     background-color: rgb(67, 69, 66);
     z-index: 10;
     justify-self: flex-end;
-    margin-left: 158rem;
+    margin-left: 161rem;
     margin-top: -2rem;   
-    box-shadow: 0rem 0rem 1rem 0rem gray;
+  
 }
 @media only screen and (max-width: 1400px) {
     .Footer   {
         position: fixed;
-        width: 5rem;
+        width: 4rem;
         height: 100vh;
         background-color: rgb(67, 69, 66);
         z-index: 10;
         justify-self: flex-end;
-        margin-left: 110rem;
+        margin-left: 115rem;
         margin-top: -2rem;   
-        box-shadow: 0rem 0rem 1rem 0rem gray;
     }}
+    .Icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .Icons-Head {
+        align-items: center;
+    }
+    .Home-Logo {
+        width: 2rem;
+        
+    }
+    .Icons-Fuss {
+        align-items: center;
+        margin-top: 42rem;
+    }
+    @media only screen and (max-width: 1400px) {
+        .Icons-Fuss {
+            align-items: center;
+            margin-top: 30rem;
+         
+        }}
+ 
+    .Up {
+        width: 2rem;
+        margin-top: 6rem;
+    }
