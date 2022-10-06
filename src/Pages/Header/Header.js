@@ -19,7 +19,11 @@ function Header() {
             </div>
         </div>
         <div className="Linke-Seite">
-          <div className="Footer"></div>
+          <div className="Footer">
+            <div className="Icons">
+             
+            </div>
+          </div>
         </div>
     </div>
   );
