@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(234, 234, 234);
-  width: 70%;
-  height:240vh;
-  margin-left: 28rem;
+  width: 74%;
+  height:230vh;
+  margin-left: 22rem;
+  align-items: center;
 }
 @media only screen and (max-width: 1400px) {
   .Resume {
@@ -13,7 +14,7 @@
     background-color: rgb(234, 234, 234);
     width: 65%;
     height:200vh;
-    margin-left: 25rem;
+    margin-left: 21.5rem;
      }}
 .English {
   font-family: 'Raleway', sans-serif;
@@ -175,7 +176,7 @@
   font-size: 1.2rem;
   text-align: justify;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: 0rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -186,7 +187,7 @@
     font-size: 0.8rem;
     text-align: justify;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: 0rem;
      }}
 .Professional {
@@ -214,7 +215,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: 0rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -224,7 +225,7 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: 0rem;
      }}
 .PacifcHydro  {
@@ -233,7 +234,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: 0rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -243,7 +244,7 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: 0rem;
      }}
 .GeneralManagerSiah {
@@ -252,7 +253,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: 0rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -262,7 +263,7 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: 0rem;
      }}
 .Nautica {
@@ -271,7 +272,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: 0rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -281,7 +282,7 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: 0rem;
      }}
 .TTI {
@@ -290,7 +291,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: 0rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -300,7 +301,7 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: 0rem;
      }}
 .ATT {
@@ -309,7 +310,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: 0rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -319,7 +320,7 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: 0rem;
      }}
 .TKS {
@@ -328,7 +329,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: 0rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -338,7 +339,7 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: 0rem;
      }}
 .Education {
@@ -366,7 +367,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: -1rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -376,7 +377,7 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: -1rem;
      }}
 .Humboldt {
@@ -385,7 +386,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: -1rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -395,7 +396,7 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: -1rem;
      }}
 .PCD {
@@ -404,7 +405,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: -1rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -414,7 +415,7 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: -1rem;
      }}
 .CubosAcademy {
@@ -423,7 +424,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: -1rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -433,7 +434,7 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: -1rem;
      }}
 .EBAC {
@@ -442,7 +443,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color:  rgb(132, 132, 132);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-top: -1rem;
 }
 @media only screen and (max-width: 1400px) {
@@ -452,19 +453,19 @@
     font-weight: 700;
     font-size: 0.8rem;
     color:  rgb(132, 132, 132);
-    margin-left: 10rem;
+    margin-left: 0rem;
     margin-top: -1rem;
      }}
 .line {
   width: 70%;
   margin-top: 2rem;
-  margin-left: 12rem;
+  margin-left: 0rem;
   border-bottom: 0.1rem solid gray;
 }
 @media only screen and (max-width: 1400px) {
   .line {
     width: 60%;
     margin-top: 2rem;
-    margin-left: 10rem;
+    margin-left: 0rem;
     border-bottom: 0.1rem solid gray;
      }}

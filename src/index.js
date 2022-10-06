@@ -6,7 +6,6 @@ import Header from './Pages/Header/Header';
 import Resume from './Pages/Resume/Resume';
 import Work from './Pages/Work/Work';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

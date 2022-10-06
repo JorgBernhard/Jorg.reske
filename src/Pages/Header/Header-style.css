@@ -1,23 +1,22 @@
 .Head   {
     position: fixed;
     width: 18rem;
-    height: 90vh;
+    height: 100vh;
     background-color: rgb(67, 69, 66);
     z-index: 10;
-    margin-top: 2rem;
-    margin-left: 8rem;
-    border-radius: 0.5rem;
+    margin-top: -2rem;
+    margin-left: 2rem;
+   
 }
 @media only screen and (max-width: 1400px) {
     .Head {
-    position: fixed;
-    width: 18rem;
-    height: 90vh;
-    background-color: rgb(67, 69, 66);
-    z-index: 10;
-    margin-top: 2rem;
-    margin-left: 5rem;
-    border-radius: 0.5rem;
+        position: fixed;
+        width: 18rem;
+        height: 100vh;
+        background-color: rgb(67, 69, 66);
+        z-index: 10;
+        margin-top: -2rem;
+        margin-left: 2rem;
      }}
 .Head {
     display: flex;
@@ -86,3 +85,30 @@ a {
 a:hover {
     color: rgb(29, 29, 29);
 }
+.Linke-Seite {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.Footer   {
+    position: fixed;
+    width: 5rem;
+    height: 100vh;
+    background-color: rgb(67, 69, 66);
+    z-index: 10;
+    justify-self: flex-end;
+    margin-left: 158rem;
+    margin-top: -2rem;   
+}
+@media only screen and (max-width: 1400px) {
+    .Footer   {
+        position: fixed;
+        width: 5rem;
+        height: 100vh;
+        background-color: rgb(67, 69, 66);
+        z-index: 10;
+        justify-self: flex-end;
+        margin-left: 110rem;
+        margin-top: -2rem;   
+    }}

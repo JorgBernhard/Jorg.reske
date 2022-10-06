@@ -18,6 +18,9 @@ function Header() {
                 <a href='#work' >WORK SAMPLES</a>
             </div>
         </div>
+        <div className="Linke-Seite">
+          <div className="Footer"></div>
+        </div>
     </div>
   );
 }
