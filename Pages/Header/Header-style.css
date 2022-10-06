@@ -1,0 +1,144 @@
+.Head   {
+    position: fixed;
+    width: 20rem;
+    height: 100vh;
+    background-color: rgb(67, 69, 66);
+    z-index: 10;
+    margin-top: -2rem;
+    margin-left: 0rem;
+   
+}
+@media only screen and (max-width: 1400px) {
+    .Head {
+        position: fixed;
+        width: 20rem;
+        height: 100vh;
+        background-color: rgb(67, 69, 66);
+        z-index: 10;
+        margin-top: -2rem;
+        margin-left: 0rem;
+     }}
+.Head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.links-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0rem;
+}
+.Nome {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color:  rgb(129, 129, 129);
+    margin-top: -0rem;
+    padding: 1rem;
+    background-color: rgb(46, 46, 46);
+   
+}
+.Jorg   {
+    width: 20rem;
+    height: 22rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+.Title  {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color:  rgb(129, 129, 129);
+    
+    padding: 1rem;
+    background-color: rgb(46, 46, 46);
+}
+.links-fuss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+a {
+    all: unset;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color:  rgb(129, 129, 129);
+    margin-bottom: 3.5rem;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+    a {
+        all: unset;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 0.8rem;
+        color:  rgb(129, 129, 129);
+        margin-bottom: 1.5rem;
+        cursor: pointer;
+    }}
+a:hover {
+    color: rgb(29, 29, 29);
+}
+.Linke-Seite {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.Footer   {
+    position: fixed;
+    width:6rem;
+    height: 100vh;
+    background-color: rgb(67, 69, 66);
+    z-index: 10;
+    justify-self: flex-end;
+    margin-left: 161rem;
+    margin-top: -2rem;   
+  
+}
+@media only screen and (max-width: 1400px) {
+    .Footer   {
+        position: fixed;
+        width: 4rem;
+        height: 100vh;
+        background-color: rgb(67, 69, 66);
+        z-index: 10;
+        justify-self: flex-end;
+        margin-left: 115rem;
+        margin-top: -2rem;   
+    }}
+    .Icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .Icons-Head {
+        align-items: center;
+    }
+    .Home-Logo {
+        width: 2rem;
+        
+    }
+    .Icons-Fuss {
+        align-items: center;
+        margin-top: 42rem;
+    }
+    @media only screen and (max-width: 1400px) {
+        .Icons-Fuss {
+            align-items: center;
+            margin-top: 30rem;
+         
+        }}
+ 
+    .Up {
+        width: 2rem;
+        margin-top: 6rem;
+    }

@@ -1,0 +1,566 @@
+.Resume {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(234, 234, 234);
+  width: 74%;
+  height:250vh;
+  margin-left: 22rem;
+  align-items: center;
+}
+@media only screen and (max-width: 1400px) {
+  .Resume {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 234, 234);
+    width: 65%;
+    height:210vh;
+    margin-left: 21.5rem;
+     }}
+.English-Resume {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(78, 78, 78);
+  margin-top: 1rem;
+  margin-left: -60rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+  .English-Resume {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(78, 78, 78);
+    margin-top: 1rem;
+    margin-left: -40rem;
+    cursor: pointer;
+     }}
+.English-Reume:hover {
+  color:  rgb(16, 16, 16);
+}
+.Das-Resume {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0rem;
+  align-items: center;
+  margin-top: 0rem;
+}
+.My-Resume {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color:  rgb(78, 78, 78);
+  margin-top: -2rem;
+}
+@media only screen and (max-width: 1400px) {
+  .My-Resume {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color:  rgb(78, 78, 78);
+    margin-top: -2rem;
+     }}
+.PM {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color:  rgb(159, 159, 159);
+  margin-top: 0rem;
+}
+@media only screen and (max-width: 1400px) {
+  .PM {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color:  rgb(159, 159, 159);
+    margin-top: 0rem;
+     }}
+.Position {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color:  rgb(132, 132, 132);
+  margin-top: -1rem;
+}
+@media only screen and (max-width: 1400px) {
+  .Position {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color:  rgb(132, 132, 132);
+    margin-top: -1rem;
+     }}
+.Divide {
+  display: flex;
+  flex-direction: row;
+  
+}
+.Links {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 0rem;
+  align-items: center;
+  justify-content: center;
+}
+.agil {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+  color:  rgb(132, 132, 132);
+}
+@media only screen and (max-width: 1400px) {
+  .agil {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-align: center;
+    color:  rgb(132, 132, 132);
+     }}
+.Rechts {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: -5rem;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 1400px) {
+  .Rechts {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: -5rem;
+    align-items: center;
+    justify-content: center;
+     }}
+.Extras {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: justify;
+  color:  rgb(132, 132, 132);
+}
+@media only screen and (max-width: 1400px) {
+  .Extras {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-align: justify;
+    color:  rgb(132, 132, 132);
+     }}
+.Career {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color:  rgb(132, 132, 132);
+  text-align: center;
+  margin-left: 0rem;
+  justify-content: center;
+}
+@media only screen and (max-width: 1400px) {
+  .Career {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color:  rgb(132, 132, 132);
+    text-align: center;
+    margin-left: 0rem;
+    justify-content: center;
+     }}
+.Acomplished {
+  width: 70%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: justify;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+@media only screen and (max-width: 1400px) {
+  .Acomplished {
+    width: 63%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-align: justify;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: 0rem;
+     }}
+.Professional {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color:  rgb(132, 132, 132);
+  text-align: center;
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+@media only screen and (max-width: 1400px) {
+  .Professional {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color:  rgb(132, 132, 132);
+    text-align: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+     }}
+.GeneralManager-Acera {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+@media only screen and (max-width: 1400px) {
+  .GeneralManager-Acera {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: 0rem;
+     }}
+.PacifcHydro  {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+@media only screen and (max-width: 1400px) {
+  .PacifcHydro  {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: 0rem;
+     }}
+.GeneralManagerSiah {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+@media only screen and (max-width: 1400px) {
+  .GeneralManagerSiah {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: 0rem;
+     }}
+.Nautica {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+@media only screen and (max-width: 1400px) {
+  .Nautica {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: 0rem;
+     }}
+.TTI {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+@media only screen and (max-width: 1400px) {
+  .TTI {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: 0rem;
+     }}
+.ATT {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+@media only screen and (max-width: 1400px) {
+  .ATT {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: 0rem;
+     }}
+.TKS {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+@media only screen and (max-width: 1400px) {
+  .TKS {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: 0rem;
+     }}
+.Education {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color:  rgb(132, 132, 132);
+  text-align: center;
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+@media only screen and (max-width: 1400px) {
+  .Education {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color:  rgb(132, 132, 132);
+    text-align: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+     }}
+.University {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: -1rem;
+}
+@media only screen and (max-width: 1400px) {
+  .University {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+     }}
+.Humboldt {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: -1rem;
+}
+@media only screen and (max-width: 1400px) {
+  .Humboldt {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+     }}
+.PCD {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: -1rem;
+}
+@media only screen and (max-width: 1400px) {
+  .PCD {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+     }}
+.CubosAcademy {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: -1rem;
+}
+@media only screen and (max-width: 1400px) {
+  .CubosAcademy {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+     }}
+     .EBAC {
+  width: 65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color:  rgb(132, 132, 132);
+  margin-left: 0rem;
+  margin-top: -1rem;
+}
+@media only screen and (max-width: 1400px) {
+  .EBAC {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+     }}
+.Languages {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color:  rgb(132, 132, 132);
+    text-align: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    }
+    @media only screen and (max-width: 1400px) {
+      .Education {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        color:  rgb(132, 132, 132);
+        text-align: center;
+        margin-left: 0rem;
+        margin-top: 0rem;
+         }}
+.German {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+      }
+ @media only screen and (max-width: 1400px) {
+    .German {
+      width: 65%;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      color:  rgb(132, 132, 132);
+      margin-left: 0rem;
+      margin-top: -1rem;
+           }}
+.English {
+      width: 65%;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+      color:  rgb(132, 132, 132);
+      margin-left: 0rem;
+      margin-top: -1rem;
+}
+ @media only screen and (max-width: 1400px) {
+  .English {
+      width: 65%;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      color:  rgb(132, 132, 132);
+      margin-left: 0rem;
+      margin-top: -1rem;
+  }}
+  .Portuguese {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+  }
+  @media only screen and (max-width: 1400px) {
+    .Portuguese {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+    }}
+.Spanish {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+}
+ @media only screen and (max-width: 1400px) {
+   .Spanish {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:  rgb(132, 132, 132);
+    margin-left: 0rem;
+    margin-top: -1rem;
+    }}
+.line {
+  width: 70%;
+  margin-top: 2rem;
+  margin-left: 0rem;
+  border-bottom: 0.1rem solid gray;
+}
+@media only screen and (max-width: 1400px) {
+  .line {
+    width: 60%;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    border-bottom: 0.1rem solid gray;
+     }}
