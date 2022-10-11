@@ -75,13 +75,13 @@ function Resume() {
           Wireless Project development for ATT - Desert of Maricopa Arizona USA.</h5>
           <h5 className="TKS">Project Manager Assistant 1993 - 1997<br></br>
           Project Coordination; </h5>
-          <h4 className="Education">Education</h4>
+          <h4 className="Education">EDUCATION</h4>
           <h5 className="University">University Köln Administration Management</h5>
           <h5 className="Humboldt">Humboldt Tecnical School International Trade Management</h5>
           <h5 className="PCD">PCD Web-Design</h5>
           <h5 className="CubosAcademy">CubosAcademy Fullstack Engineer</h5>
           <h5 className="EBAC">UX UI Web-Design</h5>
-       <h4 className="Languages">Languages</h4>
+       <h4 className="Languages">LANGUAGES</h4>
           <h5 className="German">German  •  Native</h5>
           <h5 className="English">English  •  almost native</h5>
           <h5 className="Portuguese">Portuguese  •  almost native</h5>

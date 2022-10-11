@@ -80,7 +80,7 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color:  rgb(136, 136, 136);
      }}
 .info {
@@ -109,7 +109,7 @@
     text-align: center;
     align-items: center;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color:  rgb(159, 159, 159);
     margin-top: 0rem;
      }}
@@ -129,7 +129,7 @@
     font-family: 'Raleway', sans-serif;
     text-align: justify;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color:  rgb(159, 159, 159);
     margin-top: -1rem;
     cursor: pointer;
@@ -153,7 +153,7 @@
     font-family: 'Raleway', sans-serif;
     text-align: justify;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color:  rgb(159, 159, 159);
     margin-top: 1rem;
     cursor: pointer;
