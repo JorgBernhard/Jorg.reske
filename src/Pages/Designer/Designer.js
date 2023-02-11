@@ -29,16 +29,16 @@ function Designer() {
                     <h4 className="Text-Designer" >Art is something beautiful,
                     unique, just singular. Still we are creating art for our 
                     selfs. <br></br><br></br>
-                    Beeig a UX UI Designer brings with it resposability, a 
+                    Beeing a UX UI Designer brings with it a huge resposability, a 
                     amount of time and coordination with others to achieve 
                     the desierd result.<br></br>
-                    It dosn't matter what your designing it already 
-                    has a purpose, it's needed. The project rent to UX Reseach, 
-                    e team, maybe directed by your self has already created 
-                    the idea. Now it's time to make it solid in color and form,
-                    so people can look at it and help you smoothening out the edges. 
+                    It dosn't matter what, your design has a purpose, it's needed. 
+                    The project rent to UX Reseach, 
+                    e team, has already created the idea. Now it's time to make it 
+                    solid in color and form,so people can look at it and help you 
+                    smoothening out the edges. 
                     And than little by little the shapes become definitive. <br></br><br></br>
-                    I love Design and Art.</h4>
+                    Honestly, I love Design and Art.</h4>
                 </div>
                 <div className="AllDesignPictures">
                   <div className="DesignPicures">

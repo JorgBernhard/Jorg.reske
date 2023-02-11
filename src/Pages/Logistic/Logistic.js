@@ -28,16 +28,16 @@ function Logistic() {
               destination.</h4>
               <img className="Logistic-Pic" src={Logistics} alt="Logistic-Pic" />
               <h4 className="Text-Logistic-Entrance">All over the world you se companies
-              working with logistic systems or even are logistic compaanies. Container-ship 
-              transport, Air-transport, Trucks and Trains howling what ever bin yesd somwere
+              working with logistic systems or even are logistic companies. Container-ship 
+              transport, Air-transport, Trucks and Trains howling what ever bin used some where
               to the right destiny. Someone had to organize, see that the Truck is picking up 
-              the container from the ship tha just arrived. The timplan has to be written,
+              the container from the ship tha just arrived. The time plan has to be written,
               and passed true all envolved partners, so that cargo is on time in the right 
               place. Documentation has to be written and checked, and so on.......</h4>
               <div className="divide">
                 <h4 className="Text-Logistic-Piramide">Every one needs logistic services, 
-                companies are lost, sections dont comunicate with each other, documentation 
-                and planing are nedded, so that a company can function correctly. Thats Logistic 
+                companies are lost, sections don't communicate with each other, documentation 
+                and planing are nedded, so that a company can function correctly. That's logistic 
                 too.</h4>
               <img className="Logistic-Pic2" src={LogisticService} alt="Logistic-Pic2" />
               </div>
