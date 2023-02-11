@@ -1,0 +1,165 @@
+.Logistic {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Logistic {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 120vh;
+  background-color: rgb(109, 109, 109);
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Logistic-Left {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 120vh;
+  background-color: rgb(188, 104, 19);
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Container-Logistic-Center {
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  height: 120vh;
+  background-color: rgb(45, 88, 91);
+
+  align-items: center;
+  justify-content: space-between;
+}
+.Text-Logistic-All {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  align-items: center;
+}
+.Title-Logistic {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 80rem;
+}
+.Text-Logistic {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: justify;
+  align-items: center;
+  width: 80rem;
+}
+.Logistic-Pic {
+  width: 80rem;
+  border-radius: 2rem;
+}
+.Text-Logistic-Entrance {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: justify;
+  align-items: center;
+  width: 80rem;
+}
+.divide {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 5rem;
+}
+.Text-Logistic-Piramide {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: justify;
+  align-items: center;
+  width: 38rem;
+}
+.Logistic-Pic2 {
+  width: 38rem;
+  border-radius: 2rem;
+}
+.Text-Logistic-Final {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: justify;
+  align-items: center;
+  width: 80rem;
+}
+
+.Container-Logistic-Right {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 120vh;
+  background-color: rgb(188, 104, 19);
+  gap: 6rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Links-Logistic {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-bottom: 2rem;
+  gap: 3rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Casa-Logistic {
+  width: 4rem;
+}
+.Casa-Logistic:hover {
+  transform: rotate(10deg);
+}
+.Ma-Logistic {
+  width: 4rem;
+}
+.Ma-Logistic:hover {
+  transform: rotate(10deg);
+}
+.Log-Logistic {
+  width: 4rem;
+}
+.Log-Logistic:hover {
+  transform: rotate(10deg);
+}
+.Des-Logistic {
+  width: 4rem;
+}
+.Des-Logistic:hover {
+  transform: rotate(10deg);
+}
+.Dev-Logistic {
+  width: 4rem;
+}
+.Dev-Logistic:hover {
+  transform: rotate(10deg);
+}
+.Eu-Logistic {
+  width: 4rem;
+}
+.Eu-Logistic:hover {
+  transform: rotate(10deg);
+}
+.Contact-Logistic {
+  width: 4rem;
+}
+.Contact-Logistic:hover {
+  transform: rotate(10deg);
+}
+.Linked-Logistic {
+  width: 4rem;
+}
+.Linked-Logistic:hover {
+  transform: rotate(10deg);
+}

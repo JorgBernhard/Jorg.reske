@@ -1,0 +1,176 @@
+.Project {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Project {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 190vh;
+  background-color: rgb(109, 109, 109);
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Project-Left {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 190vh;
+  background-color: rgb(188, 104, 19);
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Container-Project-Center {
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  height: 190vh;
+  background-color: rgb(45, 88, 91);
+
+  align-items: center;
+  justify-content: space-between;
+}
+.Text-Project-All {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  align-items: center;
+}
+.Title-Project {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 85rem;
+}
+.Text-Project {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: justify;
+  width: 85rem;
+}
+.Acera-Text {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  color:  rgb(159, 159, 159);
+  margin-left: 13rem;
+  width: 70%;
+}
+
+.Acera {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.Acera01 {
+  width: 40rem;
+  
+}
+
+.Acera02 {
+  width: 40rem;
+  
+}
+
+.Acera2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.Acera03 {
+  width: 40rem;
+}
+
+.Acera04{
+  width: 40rem;
+}
+
+.Design {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color:  rgb(159, 159, 159);
+  margin-left: 13rem;
+  margin-top: 5rem;
+}
+
+.Container-Project-Right {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 190vh;
+  background-color: rgb(188, 104, 19);
+  gap: 6rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Links-Project {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-bottom: 2rem;
+  gap: 3rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Casa-Project {
+  width: 4rem;
+}
+.Casa-Project:hover {
+  transform: rotate(10deg);
+}
+.Ma-Project {
+  width: 4rem;
+}
+.Ma-Project:hover {
+  transform: rotate(10deg);
+}
+.Log-Project {
+  width: 4rem;
+}
+.Log-Project:hover {
+  transform: rotate(10deg);
+}
+.Des-Project {
+  width: 4rem;
+}
+.Des-Project:hover {
+  transform: rotate(10deg);
+}
+.Dev-Project {
+  width: 4rem;
+}
+.Dev-Project:hover {
+  transform: rotate(10deg);
+}
+.Eu-Project {
+  width: 4rem;
+}
+.Eu-Project:hover {
+  transform: rotate(10deg);
+}
+.Contact-Project {
+  width: 4rem;
+}
+.Contact-Project:hover {
+  transform: rotate(10deg);
+}
+.Linked-Project {
+  width: 4rem;
+}
+.Linked-Project:hover {
+  transform: rotate(10deg);
+}

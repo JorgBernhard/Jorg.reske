@@ -1,0 +1,178 @@
+.Designer {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Designer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 155vh;
+  background-color: rgb(109, 109, 109);
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Designer-Left {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 155vh;
+  background-color: rgb(188, 104, 19);
+  gap: 4rem;
+  align-items: center;
+
+}
+
+.Container-Designer-Center {
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  height: 155vh;
+  background-color: rgb(45, 88, 91);
+
+  align-items: center;
+  justify-content: space-between;
+}
+.Text-Designer-All {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  align-items: center;
+}
+.Title-Designer {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 85rem;
+}
+.Text-Designer {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: justify;
+  width: 85rem;
+}
+.AllDesignPictures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.DesignPicures {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.Design01 {
+  width: 40rem;
+  height: 30rem;
+}
+.Design02 {
+  width: 40rem;
+  height: 30rem;
+}
+.DesignPicturess {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.Design03 {
+  width: 40rem;
+  height: 30rem;
+}
+.Design04 {
+  width: 40rem;
+  height: 30rem;
+}
+.DesignPicturesss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.Design05 {
+  width: 40rem;
+  height: 30rem;
+}
+.Design06 {
+  width: 40rem;
+  height: 30rem;
+}
+
+.Container-Designer-Right {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 155vh;
+  background-color: rgb(188, 104, 19);
+  gap: 6rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Links-Designer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-bottom: 2rem;
+  gap: 3rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Casa-Designer {
+  width: 4rem;
+}
+.Casa-Designer:hover {
+  transform: rotate(10deg);
+}
+.Ma-Designer {
+  width: 4rem;
+}
+.Ma-Designer:hover {
+  transform: rotate(10deg);
+}
+.Log-Designer {
+  width: 4rem;
+}
+.Log-Designer:hover {
+  transform: rotate(10deg);
+}
+.Des-Designer {
+  width: 4rem;
+}
+.Des-Designer:hover {
+  transform: rotate(10deg);
+}
+.Dev-Designer {
+  width: 4rem;
+}
+.Dev-Designer:hover {
+  transform: rotate(10deg);
+}
+.Eu-Designer {
+  width: 4rem;
+}
+.Eu-Designer:hover {
+  transform: rotate(10deg);
+}
+.Contact-Designer {
+  width: 4rem;
+}
+.Contact-Designer:hover {
+  transform: rotate(10deg);
+}
+.Linked-Designer {
+  width: 4rem;
+}
+.Linked-Designer:hover {
+  transform: rotate(10deg);
+}

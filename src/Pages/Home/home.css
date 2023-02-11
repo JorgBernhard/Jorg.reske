@@ -1,0 +1,181 @@
+.Home {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Home {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(109, 109, 109);
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Home-Left {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  height: 100vh;
+  background-color: rgb(188, 104, 19);
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.Sites-Home  {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30rem;
+}
+.Project {
+  all: unset;
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+
+}
+.Project:hover {
+  color: rgb(46, 151, 159);
+}
+.Logistic {
+  all: unset;
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+
+}
+.Logistic:hover {
+  color: rgb(46, 151, 159);
+}
+.Designer {
+  all: unset;
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+
+}
+.Designer:hover {
+  color: rgb(46, 151, 159);
+}
+.Developer {
+  all: unset;
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+
+}
+.Developer:hover {
+  color: rgb(46, 151, 159);
+}
+.Me {
+  all: unset;
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+
+}
+.Me:hover {
+  color: rgb(46, 151, 159);
+}
+.Links-Home {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  gap: 3rem;
+  align-items: center;
+}
+.Casa {
+  width: 4rem;
+}
+.Casa:hover {
+  transform: rotate(10deg);
+}
+.Contact {
+  width: 4rem;
+}
+.Contact:hover {
+  transform: rotate(10deg);
+}
+.Linked {
+  width: 4rem;
+}
+.Linked:hover {
+  transform: rotate(10deg);
+}
+.Whats {
+  width: 4rem;
+}
+.Whats:hover {
+  transform: rotate(20deg);
+}
+
+.Container-Home-Center {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  height: 100vh;
+  background-image: url('../../assets/back-center.png');
+  background-color: rgb(45, 88, 91);
+
+  align-items: center;
+  justify-content: space-between;
+}
+.JorgB {
+  width: 22rem;
+  border-radius: 5rem;
+  margin-left: 20rem;
+  margin-top: 35rem;
+ 
+}
+.WebDesign {
+  font-family: 'Aboreto', cursive;
+
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+.Container-Home-Right {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 100vh;
+  background-color: rgb(188, 104, 19);
+  gap: 6rem;
+  align-items: center;
+  justify-content: center;
+}
+.Reske {
+  font-family: 'Aboreto', cursive;
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+  transform: rotate(-90deg);
+
+}
+.Bernhard {
+  font-family: 'Aboreto', cursive;
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+  transform: rotate(-90deg);
+}
+.Jorg {
+  font-family: 'Aboreto', cursive;
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+  transform: rotate(-90deg);
+}

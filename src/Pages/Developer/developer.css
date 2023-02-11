@@ -1,0 +1,131 @@
+.Developer {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Developer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 110vh;
+  background-color: rgb(109, 109, 109);
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Developer-Left {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 110vh;
+  background-color: rgb(188, 104, 19);
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Container-Developer-Center {
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  height: 110vh;
+  background-color: rgb(45, 88, 91);
+
+  align-items: center;
+  justify-content: space-between;
+}
+.Text-Developer-All {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  align-items: center;
+  
+}
+.Text-Developer-Title{
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  width: 80rem;
+  text-align: center;
+}
+.Text-Developer-Base {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  width: 80rem;
+  text-align: justify;
+}
+.Dev {
+  width: 80rem;
+}
+
+.Container-Developer-Right {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 110vh;
+  background-color: rgb(188, 104, 19);
+  gap: 6rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Links-Developer {
+  display: flex;
+  flex-direction: column;
+  height: 110vh;
+  margin-bottom: 2rem;
+  gap: 3rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Casa-Developer {
+  width: 4rem;
+}
+.Casa-Developer:hover {
+  transform: rotate(10deg);
+}
+.Ma-Developer {
+  width: 4rem;
+}
+.Ma-Developer:hover {
+  transform: rotate(10deg);
+}
+.Log-Developer {
+  width: 4rem;
+}
+.Log-Developer:hover {
+  transform: rotate(10deg);
+}
+.Des-Developer {
+  width: 4rem;
+}
+.Des-Developer:hover {
+  transform: rotate(10deg);
+}
+.Dev-Developer {
+  width: 4rem;
+}
+.Dev-Developer:hover {
+  transform: rotate(10deg);
+}
+.Eu-Developer {
+  width: 4rem;
+}
+.Eu-Developer:hover {
+  transform: rotate(10deg);
+}
+.Contact-Developer {
+  width: 4rem;
+}
+.Contact-Developer:hover {
+  transform: rotate(10deg);
+}
+.Linked-Developer {
+  width: 4rem;
+}
+.Linked-Developer:hover {
+  transform: rotate(10deg);
+}

@@ -1,0 +1,156 @@
+.Me {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Me {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 255vh;
+  background-color: rgb(109, 109, 109);
+
+  align-items: center;
+  justify-content: center;
+}
+.Container-Me-Left {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 255vh;
+  background-color: rgb(188, 104, 19);
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Container-Me-Center {
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  height: 255vh;
+  background-color: rgb(45, 88, 91);
+
+  align-items: center;
+  justify-content: space-between;
+}
+.Text-Me-All {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  
+}
+.Jorg-Me {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+.Title-Me {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 85rem;
+}
+.Text-Me {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: justify;
+  width: 85rem;
+}
+.Resume {
+  all: unset;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0rem;
+
+}
+
+.English-Resume{
+  all: unset;
+  font-family: 'Aboreto', cursive;
+  color: rgb(45, 88, 91);
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 1rem;
+  border: 0.2rem solid white;
+  border-radius: 2rem;
+  background-color: white;
+  margin-bottom: 4rem;
+}
+.English-Resume:hover {
+  color: rgb(186, 186, 186);
+}
+
+.Container-Me-Right {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 255vh;
+  background-color: rgb(188, 104, 19);
+  gap: 6rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Links-Me {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-bottom: 2rem;
+  gap: 3rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Casa-Me {
+  width: 4rem;
+}
+.Casa-Me:hover {
+  transform: rotate(10deg);
+}
+.Ma-Me {
+  width: 4rem;
+}
+.Ma-Me:hover {
+  transform: rotate(10deg);
+}
+.Log-Me {
+  width: 4rem;
+}
+.Log-Me:hover {
+  transform: rotate(10deg);
+}
+.Des-Me {
+  width: 4rem;
+}
+.Des-Me:hover {
+  transform: rotate(10deg);
+}
+.Dev-Me {
+  width: 4rem;
+}
+.Dev-Me:hover {
+  transform: rotate(10deg);
+}
+.Eu-Me {
+  width: 4rem;
+}
+.Eu-Me:hover {
+  transform: rotate(10deg);
+}
+.Contact-Me {
+  width: 4rem;
+}
+.Contact-Me:hover {
+  transform: rotate(10deg);
+}
+.Linked-Me {
+  width: 4rem;
+}
+.Linked-Me:hover {
+  transform: rotate(10deg);
+}
