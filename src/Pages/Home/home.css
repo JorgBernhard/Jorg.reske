@@ -1,9 +1,9 @@
 .Home {
   display: flex;
   flex-direction: row;
-
   align-items: center;
   justify-content: center;
+
 }
 .Container-Home {
   display: flex;
@@ -20,10 +20,11 @@
   flex-direction: column;
   width: 50rem;
   height: 100vh;
-  background-color: rgb(188, 104, 19);
+  background-color: rgb(255, 128, 0);
   gap: 4rem;
   align-items: center;
   justify-content: space-between;
+  z-index: 10;
 }
 .Sites-Home  {
   display: flex;
@@ -38,7 +39,7 @@
   font-family: 'Aboreto', cursive;
   font-weight: 700;
   font-size: 3rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
 
 }
@@ -50,7 +51,7 @@
   font-family: 'Aboreto', cursive;
   font-weight: 700;
   font-size: 3rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
 
 }
@@ -62,7 +63,7 @@
   font-family: 'Aboreto', cursive;
   font-weight: 700;
   font-size: 3rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
 
 }
@@ -74,7 +75,7 @@
   font-family: 'Aboreto', cursive;
   font-weight: 700;
   font-size: 3rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
 
 }
@@ -86,7 +87,7 @@
   font-family: 'Aboreto', cursive;
   font-weight: 700;
   font-size: 3rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
 
 }
@@ -140,8 +141,16 @@
   width: 22rem;
   border-radius: 5rem;
   margin-left: 20rem;
-  margin-top: 35rem;
- 
+  margin-top: 20rem;
+  
+}
+
+.Jorg {
+  font-family: 'Aboreto', cursive;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  transform: rotate(-25deg);
+  margin-top: -2rem;
 }
 .WebDesign {
   font-family: 'Aboreto', cursive;
@@ -159,23 +168,4 @@
   gap: 6rem;
   align-items: center;
   justify-content: center;
-}
-.Reske {
-  font-family: 'Aboreto', cursive;
-  font-size: 4rem;
-  color: rgb(0, 0, 0);
-  transform: rotate(-90deg);
-
-}
-.Bernhard {
-  font-family: 'Aboreto', cursive;
-  font-size: 4rem;
-  color: rgb(0, 0, 0);
-  transform: rotate(-90deg);
-}
-.Jorg {
-  font-family: 'Aboreto', cursive;
-  font-size: 4rem;
-  color: rgb(0, 0, 0);
-  transform: rotate(-90deg);
 }

@@ -1,8 +1,8 @@
 import Jorg from '../../assets/Jorg.png';
 
-import Contact from '../../assets/contact-us.png';
-import Linked from '../../assets/linkedin.png';
-import Whats from '../../assets/whatsapp.png';
+import Contact from '../../assets/white-contact-us.png';
+import Linked from '../../assets/white-linkedin.png';
+import Whats from '../../assets/white-whatsapp.png';
 
 import './home.css';
 
@@ -27,12 +27,11 @@ function Home() {
         </div>
         <div className="Container-Home-Center">
               <img className="JorgB" src={Jorg} alt="jorg" />
+       
+              <h3 className="Jorg">Jörg Bernhard</h3>
               <h5 className="WebDesign">W4Y Design ® All Rights ar reserved - Since 2010</h5>
         </div>
         <div className="Container-Home-Right">
-              <h3 className="Reske">Reske</h3>
-              <h3 className="Bernhard">Bernhard</h3>
-              <h3 className="Jorg">Jörg</h3>
           </div>
         </div>
       </div>
