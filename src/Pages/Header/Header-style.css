@@ -86,4 +86,9 @@
   .Linked-Header:hover {
     transform: rotate(10deg);
   }
-  
+.Whatsapp-Header {
+  width: 4rem;
+}
+.Whatsapp-Header:hover {
+  transform: rotate(10deg);
+}

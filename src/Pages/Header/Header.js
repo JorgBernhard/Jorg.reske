@@ -6,6 +6,7 @@ import Dev from '../../assets/white-code.png';
 import Eu from '../../assets/white-man-user.png';
 import Contact from '../../assets/white-contact-us.png';
 import Linked from '../../assets/white-linkedin.png';
+import Whats from '../../assets/white-whatsapp.png';
 
 import './Header-style.css';
 
@@ -29,6 +30,7 @@ function Header() {
                     <a className="Eu-Header" href='#me'><img className="Eu-Header" src={Eu} alt="me" /></a>  
                     <a className="email" href="mailto:jorg.reske@gmail.com" alt="email"><img className="Contact" src={Contact} alt="Contact" /></a> 
                     <a className="Linked-Header" target="_blank" rel="noreferrer" href={"https://www.linkedin.com/in/jorg-reske-b327699b/"} alt="Linked"><img className="Linked" src={Linked} alt="linked" /></a>
+                    <a className="Whatsapp" target="_blank" rel="noreferrer" href={"https://api.whatsapp.com/send/?phone=5584999685830&text&type=phone_number&app_absent=0"} alt="Whatsapp"><img className="Whats" src={Whats} alt="Whats" /></a> 
                   </div>
               </div>
         </div>
