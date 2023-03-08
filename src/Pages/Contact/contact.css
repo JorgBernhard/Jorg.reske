@@ -1,0 +1,69 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 120vh;
+
+  align-items: center;
+  
+  background-color: rgb(27, 60, 93);
+  background-image: url('../../assets/BackGround.png');
+  background-size: cover;
+}
+.ContactContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 100rem;
+  height: 100%;
+
+  margin-top: 12rem;
+  margin-left: 2rem;
+
+  align-items: left;
+}
+.Divi {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  gap: 8rem;
+  margin-top: -4rem;
+}
+.Thanks {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  color: orangered;
+  margin-top: 0rem;
+}
+.Please {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: 0rem;
+}
+.ContactInfo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: 0rem;
+}
+.Foto {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  border-right: solid 0.3rem orangered;
+  border-bottom: solid 0.3rem orangered;
+}
+.Fim {
+  width: 90rem;
+  height: 5rem;
+  margin-top: 25rem;
+}

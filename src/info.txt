@@ -1,0 +1,10 @@
+font-family: 'Caveat', cursive;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Satisfy', cursive;
+
+@media only screen and (max-width: 420px) {
+  .nav-icon img {
+    right: 1rem;
+   }}

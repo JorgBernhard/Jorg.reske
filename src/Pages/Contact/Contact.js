@@ -1,32 +1,28 @@
-import './style-contact.css';
-import Logo from '../../assets/logo.png';
-import Page from '../../assets/old-page.png';
-import QR from '../../assets/QR.png';
-import Linked from '../../assets/linkedin.png';
-import Github from '../../assets/github.png';
+import Jorg from '../../assets/Jorg.png';
+import Fim from '../../assets/fim.png'
+import './contact.css';
 
 function Contact() {
-
   return (
-    <div id="contact">
-    <div className="Container-contact">
-      <h3 className="Contact">My contact information</h3>
-      <div className="Art">
-      <img src={Logo} className="App-logo-contact" alt="logo" />
-      <img src={Page} className="Page" alt="old-page" />
-      <img src={QR} className="QR" alt="QR" />
+    <div id='contact'>
+      <div className="Contact">
+        <div className="ContactContainer">
+          <h3 className="Thanks">Thank's a lot.</h3>
+          <h3 className="Please">Here my adress information, feel free to contact me.</h3>
+          <div className="Divi">
+          <h3 className="ContactInfo">
+            Jörg Bernhard Reske<br></br>
+            Rua Lagoa Nove, 124 - Bloco B 402<br></br>
+            Cep: 59152-655<br></br>
+            Nova Parnamirim - Natal - Brasil<br></br><br></br>
+            Phone: +55 (84) 99968-5830 / Whatsapp & Telegram<br></br>
+            Email: jorg.reske@gmail.com<br></br>
+          </h3>
+          <img className="Foto" src={Jorg} alt="jorg" />
+          </div>
+          <img className="Fim" src={Fim} alt="fim" />
+        </div>
       </div>
-      <div className="logos">
-                      <div className="Git">
-                          <img src={Github} alt="git" />
-                          <a className="github" target="_blank" rel="noreferrer" href="https://github.com/JorgBernhard" alt="git">My Github: https://github.com/JorgBernhard</a><br></br>
-                      </div>
-                      <div className="Link">
-                          <img src={Linked} alt="linked" />
-                          <a className="linked" target="_blank" rel="noreferrer" href={"https://www.linkedin.com/in/jorg-reske-b327699b/"} alt="linked">My LinkedIn: https://www.linkedin.com/in/jorg-reske-b327699b/</a>
-                      </div>
-                  </div>
-     </div>
     </div>
   );
 }

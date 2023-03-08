@@ -1,0 +1,173 @@
+.Education {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 150vh;
+
+  align-items: center;
+  
+  background-color: rgb(27, 60, 93);
+  background-image: url('../../assets/BackGround2.png');
+  background-size: cover;
+}
+.EducationContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 100rem;
+  height: 100%;
+
+  margin-top: 12rem;
+  margin-left: 2rem;
+
+  align-items: left;
+}
+.EduHigh {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+
+  color: orangered;
+  margin-top: -2rem;
+  margin-bottom: 4rem;
+}
+.UniKoln {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  gap: 3rem;
+}
+.Uni {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: -2rem;
+  margin-right: 10rem;
+}
+.UniUrk {
+  width: 20rem;
+}
+.UniUrkb {
+  width: 20rem;
+}
+.Hum {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 3rem;
+}
+.Humboldt {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: 4rem;
+}
+.HumboldtB {
+  width: 20rem;
+}
+.HumboldtA {
+  width: 20rem;
+}
+
+.PCD {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: -2rem;
+}
+.Cub {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+  gap: 3rem;
+}
+.Cubos {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: 0rem;
+  margin-right: 15rem;
+}
+.CubosA {
+  width: 20rem;
+}
+.CubosB {
+  width: 20rem;
+}
+.EB {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 3rem;
+}
+.Google {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: 2rem;
+  margin-right: 25.5rem;
+ 
+}
+.Ebac {
+  width: 20rem;
+}
+.Languages {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+
+  color: orangered;
+  margin-top: 6rem;
+  
+}
+.Deutsch {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: 0rem;
+  margin-right: 25.5rem;
+}
+.English {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top:-3rem;
+  margin-right: 25.5rem;
+}
+.Portugues{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: -3rem;
+  margin-right: 25.5rem;
+}
+.Spanish {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: -3rem;
+  margin-right: 25.5rem;
+}
