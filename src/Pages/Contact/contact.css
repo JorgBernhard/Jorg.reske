@@ -3,7 +3,7 @@
   flex-direction: column;
 
   width: 100vw;
-  height: 120vh;
+  height: 100vh;
 
   align-items: center;
   
@@ -64,6 +64,6 @@
 }
 .Fim {
   width: 90rem;
-  height: 5rem;
-  margin-top: 25rem;
+  height: 16rem;
+  margin-top: 18rem;
 }

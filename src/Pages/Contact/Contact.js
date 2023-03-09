@@ -1,5 +1,5 @@
 import Jorg from '../../assets/Jorg.png';
-import Fim from '../../assets/fim.png'
+import Fim from '../../assets/fim2.png'
 import './contact.css';
 
 function Contact() {
