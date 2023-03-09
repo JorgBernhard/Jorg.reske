@@ -20,7 +20,10 @@ function Contact() {
           </h3>
           <img className="Foto" src={Jorg} alt="jorg" />
           </div>
+          <div className="RegularFim">
           <img className="Fim" src={Fim} alt="fim" />
+          <h5 className="Line">W4Y Design - All rights reserved ® - w4ysolutions@gmail.com</h5>
+          </div>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@
   flex-direction: column;
 
   width: 100vw;
-  height: 100vh;
+  height: 99vh;
 
   align-items: center;
   
@@ -22,6 +22,7 @@
   margin-left: 2rem;
 
   align-items: left;
+  justify-content: center;
 }
 .Divi {
   display: flex;
@@ -62,8 +63,23 @@
   border-right: solid 0.3rem orangered;
   border-bottom: solid 0.3rem orangered;
 }
+.RegularFim {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+margin-bottom: -2rem;
+}
 .Fim {
-  width: 90rem;
-  height: 16rem;
-  margin-top: 18rem;
+  width: 8rem;
+  margin-top: 20rem;
+  margin-bottom: -3rem;
+}
+.Line {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+  color: orangered;
 }
