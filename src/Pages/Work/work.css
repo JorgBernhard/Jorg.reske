@@ -1,43 +1,47 @@
 .Work {
-  display: flex;
-  flex-direction: column;
+ display: flex;
+ flex-direction: column;
 
-  width: 100vw;
-  height: 120vh;
+ width: 100vw;
+ height: 140vh;
 
-  align-items: center;
-  
-  background-color: rgb(27, 60, 93);
-  background-image: url('../../assets/BackGround.png');
-  background-size: cover;
+ background-color: rgb(42, 42, 42);
+
+ align-items: center;
+ justify-content: center;
 }
 .WorkContainer {
+  width: 120rem;
+  height: 100%;
+  background-color: rgb(26, 26, 26);
+  background-image: url('../../assets/BackGround.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+.WorkTextContainer {
   display: flex;
   flex-direction: column;
-
-  width: 100rem;
-  height: 100%;
-
-  margin-top: 12rem;
-  margin-left: 2rem;
-
-  align-items: left;
+  align-items: center;
+  text-align: left;
 }
-
 .WorkResponsText {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
   font-weight: 100;
   color: orangered;
+  width: 90rem;
   
-  margin-top: -4rem;
-  margin-bottom: -2rem;
+  text-align: left;
+  margin-left: 0rem;
+  margin-top: 8rem;
+  margin-bottom: 0rem;
 }
 .WorkBoxesText {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 1.8rem;
   font-weight: 100;
-  width: 94rem;
+  width: 90rem;
   text-align: justify;
   color: rgb(255, 255, 255);
 
@@ -50,11 +54,12 @@
   
 }
 .WorkMRespons {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
   font-weight: 100;
-  margin-top: 0rem;
-  text-align: justify;
+
+  margin-left: 5rem;
+  text-align: left;
   color: orangered;
 }
 .Workdivide {
@@ -71,7 +76,7 @@
   margin-bottom: 8rem;
 }
 .WorkText {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 1.8rem;
   font-weight: 100;
   width: 50%;

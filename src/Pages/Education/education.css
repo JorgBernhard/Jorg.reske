@@ -7,29 +7,36 @@
 
   align-items: center;
   
-  background-color: rgb(27, 60, 93);
-  background-image: url('../../assets/BackGround2.png');
-  background-size: cover;
+  background-color: rgb(42, 42, 42);
 }
 .EducationContainer {
   display: flex;
   flex-direction: column;
-
-  width: 100rem;
+  
+  width: 120rem;
   height: 100%;
-
-  margin-top: 12rem;
-  margin-left: 2rem;
-
+  
+  background-image: url('../../assets/BackGround.png');
+  background-size: cover;
   align-items: left;
 }
+.EduTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+
+}
 .EduHigh {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
   font-weight: 100;
-
+  width: 90rem;
+  
+  text-align: left;
+  margin-left: 0rem;
   color: orangered;
-  margin-top: -2rem;
+  margin-top: 8rem;
   margin-bottom: 4rem;
 }
 .UniKoln {
@@ -40,7 +47,7 @@
   gap: 3rem;
 }
 .Uni {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 4rem;
@@ -62,7 +69,7 @@
   gap: 3rem;
 }
 .Humboldt {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 4rem;
@@ -77,12 +84,13 @@
 }
 
 .PCD {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 4rem;
   color: rgb(255, 255, 255);
   margin-top: -2rem;
+  margin-left: -75rem;
 }
 .Cub {
   display: flex;
@@ -92,13 +100,13 @@
   gap: 3rem;
 }
 .Cubos {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 4rem;
   color: rgb(255, 255, 255);
   margin-top: 0rem;
-  margin-right: 15rem;
+  margin-right: 18rem;
 }
 .CubosA {
   width: 20rem;
@@ -111,63 +119,64 @@
   flex-direction: row;
   align-items: center;
   margin-top: 4rem;
+  margin-left: -23rem;
   gap: 3rem;
 }
 .Google {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 4rem;
   color: rgb(255, 255, 255);
   margin-top: 2rem;
-  margin-right: 25.5rem;
+  margin-right: 29rem;
  
 }
 .Ebac {
   width: 20rem;
 }
 .Languages {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
   font-weight: 100;
-
+  margin-left: -76rem;
   color: orangered;
   margin-top: 6rem;
-  
+    
 }
 .Deutsch {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 4rem;
   color: rgb(255, 255, 255);
   margin-top: 0rem;
-  margin-right: 25.5rem;
+  margin-right: 0rem;
 }
 .English {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 4rem;
   color: rgb(255, 255, 255);
   margin-top:-3rem;
-  margin-right: 25.5rem;
+  margin-right: 0rem;
 }
 .Portugues{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 4rem;
   color: rgb(255, 255, 255);
   margin-top: -3rem;
-  margin-right: 25.5rem;
+  margin-right: 0rem;
 }
 .Spanish {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 4rem;
   color: rgb(255, 255, 255);
   margin-top: -3rem;
-  margin-right: 25.5rem;
+  margin-right: 0rem;
 }

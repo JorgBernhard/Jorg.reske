@@ -1,165 +1,151 @@
 .Home {
-  display: flex;
-  flex-direction: column;
+ display: flex;
+ flex-direction: column;
 
-  width: 100vw;
-  height: 100vh;
+ width: 100vw;
+ height: 100vh;
 
-  align-items: center;
-  justify-content: center;
+ background-color: rgb(42, 42, 42);
 
-  background-color: rgb(27, 60, 93);
-  background-image: url('../../assets/BackGround2.png');
-  background-size: cover;
+ align-items: center;
+ justify-content: center;
 }
 .HomeContainer {
-  width: 100rem;
- 
-  background-image: url('../../assets/ManagementBack.png');
+  width: 120rem;
+  height: 100vh;
+
+  background-color: rgb(26, 26, 26);
+  background-image: url('../../assets/jorg-background-graylight.png');
+  background-size: contain;
   background-repeat: no-repeat;
   
-  margin-top: 10rem;
-  margin-left: 16rem;
-}
-.Container {
-  display: flex;
-  flex-direction: row;
-
-  margin-top: 0rem;
-}
-.Me {
-  width: 30rem;
-  height: 30rem;
-
-  margin-left: -4rem;
-  margin-top: -12rem;
-  margin-right: 2rem;
-
-  border-radius: 30%;
-  background-color: rgba(27, 60, 93, 0.7);
-  
-  border-left: solid 0.3rem orangered;
-  border-top: solid 0.5rem orangered;
-
-}
-.Jorg {
-  font-family: 'Raleway', sans-serif;
-  font-size: 3rem;
-  font-weight: 100;
-
-  color: rgb(255, 255, 255);
-
-  margin-top: -8rem;
-  margin-right: 0rem;
-}
-.Cabeca {
-  font-family: 'Raleway', sans-serif;
-  font-size: 3rem;
-  font-weight: 500;
-
-  color: orangered;
-  margin-left: -6rem;
-  margin-top: -4rem;
-
-
   
 }
-.Response {
-  display: flex;
-  flex-direction: column;
+.HOmeData {
   align-items: center;
   justify-content: center;
 }
-.ResponsText {
-  font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
+.Welcome {
+  font-family: 'Petemoss', cursive;
+  font-size: 6rem;
   font-weight: 100;
-
-  color: rgb(255, 255, 255);
-
-  margin-top: 28rem;
-}
-.ResponsText2 {
   
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.4rem;
-  font-weight: 100;
-
-  color: rgb(255, 255, 255);
-
-  margin-top: 0rem;
+  margin-top: 20rem;
+  margin-left: 6rem;
+  color: white;
 }
+.Job {
+  font-family: 'Cagliostro', sans-serif;
+  font-size: 5rem;
+  font-weight: 100;
+  
+  margin-top: -6rem;
+  margin-left: 20rem;
+  color: orangered;
+}
+
 .HomeLinks {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: 4rem;
-}
-.WorkButtom {
-  all: unset;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 100;
 
-  color: rgb(255, 255, 255);
-  padding: 1rem;
-  border-radius: 1rem;
-  background-color:rgba(0, 120, 190);
-  cursor: pointer;
-  border-left: solid 0.2rem orangered;
-  border-top: solid 0.2rem orangered;
-}
-.WorkButtom:hover {
-  background-color:orangered;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 50rem;
+  gap: 4rem;
 }
 .Mail {
   all: unset;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.6rem;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 2rem;
   font-weight: 100;
-  
   color: rgb(255, 255, 255);
-  padding: 1rem;
-  border-radius: 1rem;
-  background-color:rgba(0, 120, 190);
+  width: 10rem;
+
+  text-align: center;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+
+  background-color: rgba(240, 248, 255, 0.051);
+  border-radius: 4rem;
+
   cursor: pointer;
-  border-left: solid 0.2rem orangered;
-  border-top: solid 0.2rem orangered;
 }
 .Mail:hover {
-  background-color:orangered;
+  background-color: orangered;
 }
 .Whats {
   all: unset;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.6rem;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 2rem;
   font-weight: 100;
-  
   color: rgb(255, 255, 255);
-  padding: 1rem;
-  border-radius: 1rem;
-  background-color:rgba(0, 120, 190);
+  width: 10rem;
+
+  text-align: center;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+
+  background-color: rgba(240, 248, 255, 0.051);
+  border-radius: 4rem;
+
   cursor: pointer;
-  border-left: solid 0.2rem orangered;
-  border-top: solid 0.2rem orangered;
 }
 .Whats:hover {
-  background-color:orangered;
+  background-color: orangered;
 }
-.English-Resume {
+.Resume {
   all: unset;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.6rem;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 2rem;
   font-weight: 100;
-  
   color: rgb(255, 255, 255);
-  padding: 1rem;
-  border-radius: 1rem;
-  background-color:rgba(0, 120, 190);
+  width: 10rem;
+
+  text-align: center;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+
+  background-color: rgba(240, 248, 255, 0.051);
+  border-radius: 4rem;
+
   cursor: pointer;
-  border-left: solid 0.2rem orangered;
-  border-top: solid 0.2rem orangered;
 }
-.English-Resume:hover {
-  background-color:orangered;
+.Resume:hover {
+  background-color: orangered;
+}
+.Git {
+  all: unset;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  width: 10rem;
+
+  text-align: center;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+
+  background-color: rgba(240, 248, 255, 0.051);
+  border-radius: 4rem;
+
+  cursor: pointer;
+}
+.Git:hover {
+  background-color: orangered;
+}
+.Linked {
+  all: unset;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  width: 10rem;
+
+  text-align: center;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+
+  background-color: rgba(240, 248, 255, 0.051);
+  border-radius: 4rem;
+
+  cursor: pointer;
+}
+.Linked:hover {
+  background-color: orangered;
 }

@@ -13,6 +13,7 @@ function Education() {
     <div id='education'>
       <div className="Education">
         <div className="EducationContainer">
+          <div className="EduTextContainer">
           <h3 className="EduHigh">Educational highlights</h3>
           <div className="UniKoln">
           <h4 className="Uni">University Köln Administration Management</h4>
@@ -40,6 +41,7 @@ function Education() {
           <h4 className="Portugues">Portuguese-native</h4>
           <h4 className="Spanish">Spanish-basic</h4>
         </div>
+       </div>
        </div>
     </div>
   );

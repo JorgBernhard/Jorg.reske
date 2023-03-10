@@ -7,54 +7,58 @@
 
   align-items: center;
   
-  background-color: rgb(27, 60, 93);
-  background-image: url('../../assets/BackGround.png');
-  background-size: cover;
+  background-color: rgb(42, 42, 42);
 }
 .ContactContainer {
   display: flex;
   flex-direction: column;
-
-  width: 100rem;
+  
+  width: 120rem;
   height: 100%;
-
-  margin-top: 12rem;
-  margin-left: 2rem;
-
-  align-items: left;
+  
+ 
   justify-content: center;
+
+  background-image: url('../../assets/BackGround.png');
+  background-size: cover;
 }
 .Divi {
   display: flex;
   flex-direction: row;
-
-  align-items: center;
+  width: 100rem;
+  
   gap: 8rem;
-  margin-top: -4rem;
+  margin-top: -8rem;
 }
 .Thanks {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 4rem;
+  font-weight: 100;
   color: orangered;
+
+  margin-bottom: 4rem;
   margin-top: 0rem;
+  margin-left: 17rem;
 }
 .Please {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
   font-weight: 100;
-  margin-bottom: 4rem;
   color: rgb(255, 255, 255);
+
+  margin-bottom: 12rem;
   margin-top: 0rem;
+  margin-left: 17rem;
 }
 .ContactInfo {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
   font-weight: 100;
-  margin-bottom: 4rem;
   color: rgb(255, 255, 255);
+
+  margin-bottom: 4rem;
   margin-top: 0rem;
+  margin-left: 17rem;
 }
 .Foto {
   width: 30rem;
@@ -66,10 +70,11 @@
 .RegularFim {
   display: flex;
   flex-direction: column;
-align-items: center;
-justify-content: center;
-width: 100%;
-margin-bottom: -2rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: -2rem;
+  
 }
 .Fim {
   width: 8rem;
@@ -77,7 +82,7 @@ margin-bottom: -2rem;
   margin-bottom: -3rem;
 }
 .Line {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
   font-weight: 100;
   text-align: center;

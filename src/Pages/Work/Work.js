@@ -6,6 +6,7 @@ function Work() {
     <div id='work'>
       <div className="Work">
         <div className="WorkContainer">
+          <div className="WorkTextContainer">
           <h3 className="WorkResponsText">G. Manager</h3>
           <h5 className="WorkBoxesText">Just let me say, it dosn't matter 
               the dress code, if the room is elegant or not. Your team has to believe
@@ -46,6 +47,7 @@ function Work() {
                     functions to drive cohesive, technical operations. Extensive teaching experience.
                     <br></br><br></br>Well you could go on and on...</h5>
           </div>    
+        </div>
         </div>
         </div>
       </div>
