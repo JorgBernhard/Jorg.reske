@@ -29,7 +29,7 @@
   all: unset;
   font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 500;
 
   color: white;
   cursor: pointer;
@@ -41,7 +41,7 @@
   all: unset;
   font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 500;
 
   color: white;
   cursor: pointer;
@@ -53,7 +53,7 @@
   all: unset;
   font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 500;
 
   color: white;
   cursor: pointer;
@@ -61,11 +61,23 @@
 .HeaderEducation:hover {
   color: orangered;
 }
+.HeaderW4YDesign {
+  all: unset;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+
+  color: white;
+  cursor: pointer;
+}
+.HeaderW4YDesign:hover {
+  color: orangered;
+}
 .HeaderContact {
   all: unset;
   font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 500;
 
   color: white;
   cursor: pointer;

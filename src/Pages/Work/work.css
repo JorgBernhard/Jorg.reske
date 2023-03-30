@@ -28,7 +28,7 @@
 .WorkResponsText {
   font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 500;
   color: orangered;
   width: 90rem;
   
@@ -56,7 +56,7 @@
 .WorkMRespons {
   font-family: 'Encode Sans SC', sans-serif;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 500;
 
   margin-left: 5rem;
   text-align: left;
