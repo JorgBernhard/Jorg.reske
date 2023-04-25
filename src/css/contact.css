@@ -1,0 +1,94 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+  
+    width: 100vw;
+    height: 100vh;
+  
+  background-image: url('../assets/background.png');
+  background-size: cover;
+    
+    align-items: center;
+}
+.ContactContainer {
+  display: flex;
+  flex-direction: column;
+  
+  width: 120rem;
+  height: 100%;
+  
+ 
+  justify-content: center;
+  
+}
+.Divi {
+  display: flex;
+  flex-direction: row;
+  width: 100rem;
+  
+  gap: 8rem;
+  margin-top: -8rem;
+}
+.Thanks {
+  font-family: 'Satisfy', cursive;
+  font-size: 4rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255) ;
+
+  margin-bottom: 4rem;
+  margin-top: 18rem;
+  margin-left: 17rem;
+  text-shadow: 0.2rem 0.5rem 0.5rem rgb(0, 225, 255) ;
+}
+.Please {
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+
+  margin-bottom: 12rem;
+  margin-top: 0rem;
+  margin-left: 17rem;
+}
+.ContactInfo {
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+
+  margin-bottom: 4rem;
+  margin-top: 0rem;
+  margin-left: 17rem;
+}
+.Foto {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  border-right: solid 0.3rem rgb(0, 225, 255) ;
+  border-bottom: solid 0.3rem rgb(0, 225, 255) ;
+}
+.RegularFim {
+  display: flex;
+  flex-direction: row;
+
+  height: 100%;
+  gap: 1rem;
+  
+  align-items:last baseline;
+  justify-content: center;
+}
+.Fim {
+  width: 1.4rem;
+  cursor: pointer;
+}
+.Fim:hover {
+  width: 8rem;
+}
+.Line {
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(0, 225, 255) ;
+  text-align: center;
+  
+}

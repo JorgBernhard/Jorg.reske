@@ -1,0 +1,139 @@
+.Layout {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 9rem;
+    align-items: center;
+    justify-content: center;
+   
+
+    position: fixed;
+    margin-top: -1rem;
+    z-index: 10;
+}
+.LayoutContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+
+    align-items: center;
+    justify-content: center;
+    
+}
+.LayoutOben {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    
+    gap: 3rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Mail {
+    all: unset;
+    height: 2rem;
+    cursor: pointer;
+}
+.Git {
+    all: unset;
+    height: 2rem;
+    cursor: pointer;
+}
+.Linked {
+    all: unset;
+    height: 2rem;
+    cursor: pointer;
+}
+.Whats {
+    all: unset;
+    height: 2rem;
+    cursor: pointer;
+}
+.LayoutDivison {
+    border-top: solid 0.1rem white;
+    width: 90%;
+    align-items:center;
+    justify-items: center;
+}
+.LayoutUnten {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    width: 90%;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.LayoutHome {
+    all: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 2rem;
+    margin-left: 17rem;
+
+    text-align: center;
+    cursor: pointer;
+}
+.LayoutHome:hover {
+    color:rgb(0, 225, 255) ;
+}
+.LayoutWork {
+    all: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 2rem;
+
+
+    text-align: center;
+    cursor: pointer;
+}
+.LayoutWork:hover {
+    color: rgb(0, 225, 255) ;
+}
+.LayoutEducation {
+    all: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 2rem;
+    
+    
+    text-align: center;
+    cursor: pointer;
+}
+.LayoutEducation:hover {
+    color: rgb(0, 225, 255) ;
+}
+.LayoutW4YDesign{
+    all: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 2rem;
+
+
+    text-align: center;
+    cursor: pointer;
+}
+.LayoutW4YDesign:hover {
+    color: rgb(0, 225, 255) ;
+}
+.LayoutContact {
+    all: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 2rem;
+
+
+    text-align: center;
+    cursor: pointer;
+}
+.LayoutContact:hover {
+    color: rgb(0, 225, 255) ;
+}

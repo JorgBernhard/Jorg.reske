@@ -1,0 +1,5 @@
+font-family: 'Castoro Titling', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Satisfy', cursive;

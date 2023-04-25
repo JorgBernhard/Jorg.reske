@@ -1,0 +1,115 @@
+.Work {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100vw;
+  height: 140vh;
+  
+  background-image: url('../assets/background.png');
+  background-size: cover;
+    
+  align-items: center;
+}
+.WorkContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 60%;
+
+  
+}
+.WorkManagement {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: white;
+  margin-top: 12rem;
+  text-align: left;
+
+  text-shadow: 0.2rem 0.5rem 0.5rem rgb(0, 225, 255) ;
+}
+.WorkTextGeral {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: white;
+  margin-top: 2rem;
+
+  text-align: justify;
+}
+.WorkCMitte {
+  display: flex;
+  flex-direction: row;
+
+  width: 60%;
+
+  align-items: center;
+  justify-content: center;
+}
+.WorkBoxI {
+  display: flex;
+  flex-direction: column;
+
+  width: 30rem;
+  height: 26rem;
+
+  border: solid 0.1rem white;
+  border-radius: 2rem;
+  background: linear-gradient(to right, #ffffff 0%, #97dff5 100%);
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 2rem;
+}
+.WorkTime {
+  width: 26rem;
+  height: 26rem;
+  border-radius: 2rem;
+}
+.WorkTText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  margin-left: 2rem;
+  text-align: justify;
+}
+.WorkCBoden {
+  display: flex;
+  flex-direction: row;
+
+  width: 60%;
+
+  align-items: center;
+  justify-content: center;
+}
+.WorkTTextII {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+
+  text-align: justify;
+}
+.WorkBoxII {
+  display: flex;
+  flex-direction: column;
+
+  width: 30rem;
+  height: 26rem;
+
+  border: solid 0.1rem white;
+  border-radius: 2rem;
+  background: linear-gradient(to right, #ffffff 0%, #97dff5 100%);
+
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 2rem;
+}
+.WorkAgile {
+  width: 26rem;
+  height: 26rem;
+  border-radius: 2rem;
+  
+}

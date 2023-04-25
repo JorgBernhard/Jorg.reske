@@ -1,0 +1,200 @@
+.Education {
+    display: flex;
+    flex-direction: column;
+  
+    width: 100vw;
+    height: 155vh;
+  
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    
+    align-items: center;
+  }
+  .EducationContainer {
+    display: flex;
+    flex-direction: column;
+    
+    width: 120rem;
+    height: 100%;
+    
+    align-items: left;
+}
+.EduTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+
+}
+.EduHigh {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  font-weight: 500;
+  width: 90rem;
+  
+  text-align: left;
+  margin-left: 0rem;
+  color: white;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+   text-shadow: 0.2rem 0.5rem 0.5rem rgb(0, 225, 255) ;
+}
+.UniKoln {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  gap: 3rem;
+}
+.Uni {
+ font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: -2rem;
+  margin-right: 10rem;
+}
+.UniUrk {
+  width: 20rem;
+}
+.UniUrkb {
+  width: 20rem;
+}
+.Hum {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 3rem;
+}
+.Humboldt {
+ font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: 4rem;
+}
+.HumboldtB {
+  width: 20rem;
+}
+.HumboldtA {
+  width: 20rem;
+}
+
+.PCD {
+ font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: -2rem;
+  margin-left: -75rem;
+}
+.Cub {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+  gap: 3rem;
+}
+.Cubos {
+ font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: 0rem;
+  margin-right: 18rem;
+}
+.CubosA {
+  width: 20rem;
+}
+.CubosB {
+  width: 20rem;
+}
+.EB {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4rem;
+  margin-left: -23rem;
+  gap: 3rem;
+}
+.Google {
+ font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: 2rem;
+  margin-right: 29rem;
+ 
+}
+.Ebac {
+  width: 20rem;
+}
+.Languages {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-left: -76rem;
+  color:white;
+  margin-top: 6rem;
+  text-shadow: 0.2rem 0.5rem 0.5rem rgb(0, 225, 255) ;
+  align-items: center;
+}
+.Deutsch {
+ font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: 0rem;
+  margin-right: 0rem;
+  
+}
+.English {
+ font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top:-3rem;
+  margin-right: 0rem;
+}
+.Portugues{
+ font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: -3rem;
+  margin-right: 0rem;
+}
+.Spanish {
+ font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: -3rem;
+  margin-right: 0rem;
+}
+.Resume {
+  all: unset;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: rgb(0, 225, 255);
+
+  margin-bottom: 4rem;
+
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border: solid 0.1rem rgb(0, 225, 255);
+  border-radius: 1rem;
+}
+.Resume:hover {
+  background-color:  rgba(0, 225, 255, 0.219) ;
+}
