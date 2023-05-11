@@ -1,0 +1,351 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 170vh;
+
+  background: linear-gradient(to right, #4d002d 30%, #003f64 100%);
+
+  align-items: center;
+  justify-content: center;
+}
+.Kopf {
+  display: flex;
+  flex-direction: row;
+
+  width: 90%;
+  height: 6rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.Portf {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin-left: 4rem;
+}
+.Links {
+  display: flex;
+  flex-direction: row;
+
+  width: 90%;
+  height: 6rem;
+  gap: 2rem;
+  align-items: center;
+  justify-content: right;
+  margin-right: 4rem;
+}
+.Mail {
+  height: 2rem;
+}
+.Whats {
+  height: 2rem;
+}
+.Git {
+  height: 2rem;
+}
+.Linked {
+  height: 2rem;
+}
+.Container {
+  display: flex;
+  flex-direction: row;
+
+  width: 90%;
+  height: 160rem;
+
+}
+.LinkeSeite {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  
+}
+.ConteudoLinks {
+  display: flex;
+  flex-direction: row;
+  
+  width: 100%;
+  height: 20%;
+  margin-right: 0.4rem;
+  
+  background: linear-gradient(to right, #00e1ff 0%,#018c9e  100%);
+  border-radius: 3rem 0rem 0rem 0rem;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Avatar {
+  height: 90%;
+  margin-bottom: -3.2rem;
+}
+.Doc {
+  width: 12%;
+
+  position: absolute;
+  margin-top: 38rem;
+  margin-left: -46rem;
+}
+.Texto {
+  display: flex;
+  flex-direction: column;
+
+  height: 40%;
+
+  align-items: center;
+  justify-content: center;
+}
+.Header {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+
+  margin-right: 6rem;
+  margin-bottom: -6rem;
+}
+.Profissao {
+ 
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 9rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+
+  margin-right: -6rem;
+  margin-bottom: 2rem;
+}
+.ConteudoLinksII {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  height: 60%;
+  margin-right: 0.4rem;
+  
+  background: linear-gradient(to right, #00e1ff 0%,#018c9e   100%);
+  border-radius: 0rem 0rem 0rem 0rem;
+
+   margin-top: 0.4rem;
+}
+.Portfolio {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+
+  margin-top: 6rem;
+  margin-left: 6rem;
+  text-align: left;
+}
+.TextoGeral {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+
+  color: rgb(31, 50, 105);
+  text-align: justify;
+
+  width: 90%;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  z-index: 20;
+}
+.Projetos {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+
+  margin-top: 6rem;
+  margin-left: 6rem;
+  text-align: left;
+}
+.Cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.CardI {
+  width: 35rem;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1.5rem 0.5rem 1rem rgba(65, 64, 64, 0.5);
+}
+.CardII {
+  width: 35rem;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1.5rem 0.5rem 1rem rgba(65, 64, 64, 0.5);
+}
+.CardIII {
+  width: 35rem;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1.5rem 0.5rem 1rem rgba(65, 64, 64, 0.5);
+}
+.ConteudoLinksIII {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  height: 14%;
+  margin-right: 0.4rem;
+  
+  background: linear-gradient(to right, #00e1ff 0%,#018c9e   100%);
+  border-radius: 0rem 0rem 0rem 3rem;
+
+   margin-top: 0.4rem;
+   align-items: left;
+}
+.UsBodenText  {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+
+  margin-top: 6rem;
+  margin-left: 6rem;
+  text-align: left;
+ }
+.UsBodenImages {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.UsClients {
+  height: 5rem;
+  border-radius: 1rem;
+}
+
+.RechteSeite {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 0.4rem;
+  width: 30%;
+  height: 160rem;
+}
+.ConteudoRechts {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 50%;
+
+  background: linear-gradient(to right, #018c9e 0%,#00e1ff  100%);
+  border-radius: 0rem 3rem 0rem 0rem;
+
+  align-items: center;
+}
+.Head {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+
+  margin-top: 6rem;
+  text-align: center;
+}
+.Skillset {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(31, 50, 105);
+  text-align: center;
+  margin-top: 0rem;
+}
+.Agile {
+  
+  width: 24rem;
+  padding: 0.1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  box-shadow: 1.5rem 0.5rem 1rem rgba(65, 64, 64, 0.5);
+  
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  transform: rotate(25deg);
+}
+.ConteudoRechtsII {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 18%;
+
+  margin-top: 0.4rem;
+  background: linear-gradient(to right, #018c9e 0%,#00e1ff  100%);
+  border-radius: 0rem 0rem 0rem 0rem;
+
+  align-items: center;
+}
+.Languages {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  
+  margin-top: 5rem;
+  text-align: center;
+}
+.Linguas {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(31, 50, 105);
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 12rem;
+}
+.ConteudoRechtsIII {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 26%;
+
+  margin-top: 0.4rem;
+  background: linear-gradient(to right, #018c9e 0%,#00e1ff  100%);
+  border-radius: 0rem 0rem 3rem 0rem;
+
+  align-items: center;
+}
+.ResumePort {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  
+  margin-top:8rem;
+  text-align: center;
+}
+.Resume {
+  all: unset;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgb(31, 50, 105);
+
+  margin-top: 4rem;
+
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border: solid 0.1rem rgb(255, 255, 255);
+  border-radius: 1rem;
+}
+.Resume:hover {
+  background-color:  rgba(255, 255, 255, 0.466) ;
+}
