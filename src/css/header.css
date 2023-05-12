@@ -1,0 +1,139 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 9rem;
+    align-items: center;
+    justify-content: center;
+   
+
+    position: fixed;
+    margin-top: -1rem;
+    z-index: 10;
+}
+.HeaderContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+
+    align-items: center;
+    justify-content: center;
+    
+}
+.HeaderOben {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    
+    gap: 3rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Mail {
+    all: unset;
+    height: 2rem;
+    cursor: pointer;
+}
+.Git {
+    all: unset;
+    height: 2rem;
+    cursor: pointer;
+}
+.Linked {
+    all: unset;
+    height: 2rem;
+    cursor: pointer;
+}
+.Whats {
+    all: unset;
+    height: 2rem;
+    cursor: pointer;
+}
+.HeaderDivison {
+    border-top: solid 0.1rem white;
+    width: 90%;
+    align-items:center;
+    justify-items: center;
+}
+.HeaderUnten {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    width: 90%;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.HeaderHome {
+    all: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 2rem;
+    margin-left: 17rem;
+
+    text-align: center;
+    cursor: pointer;
+}
+.HeaderHome:hover {
+    color:rgb(0, 225, 255) ;
+}
+.HeaderWork {
+    all: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 2rem;
+
+
+    text-align: center;
+    cursor: pointer;
+}
+.HeaderWork:hover {
+    color: rgb(0, 225, 255) ;
+}
+.HeaderEducation {
+    all: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 2rem;
+    
+    
+    text-align: center;
+    cursor: pointer;
+}
+.HeaderEducation:hover {
+    color: rgb(0, 225, 255) ;
+}
+.HeaderW4YDesign{
+    all: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 2rem;
+
+
+    text-align: center;
+    cursor: pointer;
+}
+.HeaderW4YDesign:hover {
+    color: rgb(0, 225, 255) ;
+}
+.HeaderContact {
+    all: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 2rem;
+
+
+    text-align: center;
+    cursor: pointer;
+}
+.HeaderContact:hover {
+    color: rgb(0, 225, 255) ;
+}
