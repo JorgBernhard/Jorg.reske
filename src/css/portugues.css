@@ -1,0 +1,286 @@
+.Portugues {
+    display: flex;
+    flex-direction: column;
+  
+    width: 100vw;
+    height: 260vh;
+  
+    background: linear-gradient(to right, #4e032f 30%, #003f64 100%);
+    
+    align-items: center;
+    justify-content: center;
+  }
+    @media only screen and (max-width: 1000px) {
+    .Portugues {
+      height: 400vh;
+     }}
+.PortuguesContainer {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 100%;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+    background-color: rgb(4, 21, 48);
+    /* box-shadow: 0rem 0rem 1rem 0.5rem rgba(0, 225, 255, 0.76); */
+    border-radius: 1rem;
+    align-items:center;
+    justify-content: center;
+   
+  }
+  @media only screen and (max-width: 1000px) {
+    .PortuguesContainer {
+      flex-direction: column;
+      height: 160%;
+     }}
+
+  .PortLeftContainer {
+    display: flex;
+    flex-direction: column;
+    
+    width: 40rem;
+  
+   
+    align-items:center;
+    justify-content: center;
+
+  }
+  .PortJorg {
+    width: 30rem;
+    margin-bottom: 10rem;
+    margin-top: -5rem;
+  }
+  .PortText {
+    display: flex;
+    flex-direction:column;
+    
+    width: 30%;
+    margin-top: -5rem ;
+    align-items:center;
+    justify-content: center;
+  }
+  .PortName {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 4rem;
+    color: white;
+    width: 40rem;
+    text-align: left;
+    margin-left: 14rem;
+  }
+  .PortWork {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 4rem;
+    color: #be5f97;
+    margin-bottom: 0rem;
+    margin-left: 14rem;
+    width: 40rem;
+    text-align: left;
+  }
+  .PortWorkI {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2rem;
+    color: #be5f97;
+    margin-top: -0rem;
+    margin-left: 14rem;
+    width: 40rem;
+    text-align: left;
+  }
+  .PortWorkII {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 3rem;
+    color: #10529c;
+    margin-top: 1rem;
+    margin-left: 14rem;
+    width: 40rem;
+    text-align: left;
+  }
+  .PortWorkIII {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 3rem;
+    color: #1583b6;
+    margin-top: 0rem;
+    margin-left: 14rem;
+    width: 40rem;
+    text-align: left;
+  }
+  .PortWorkIV {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2rem;
+    color: #1583b6;
+    margin-top: -2rem;
+    margin-left: 14rem;
+    width: 40rem;
+    text-align: left;
+  }
+  .PortRightContainer {
+    display: flex;
+    flex-direction: column;
+    
+    width: 70%;
+    padding-left: 5%;
+    align-items:left;
+    justify-content: center;
+  }
+  .PortResumePo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+ 
+  }
+  .PortResume {
+    all: unset;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.4rem;
+    width: 20rem;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #052753 30%, #003f64 100%);
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-right: 5rem;
+    margin-top: -5rem;
+    cursor: pointer;
+  }
+  .PortResume:hover {
+    opacity: 60%;
+  }
+  .PortBem {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 4rem;
+    color: white;
+   
+  }
+  .PortText-Right {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: justify;
+    
+    padding-right: 5%;
+  }
+  .PortSecond {
+    display: flex;
+    flex-direction: row;
+    
+    width: 95%;
+    gap: 5rem;
+    align-items:center;
+    justify-content: center;
+  }
+  @media only screen and (max-width: 1000px) {
+    .PortSecond {
+      flex-direction: column;
+     }}
+  .PortAgile {
+    background-color: white;
+    border-radius: 2rem;
+    border-radius: 50%;
+    border: solid 1rem rgb(53, 148, 226);
+  }
+  .PortText-Agile {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: justify;
+   
+  }
+.PortBodenContainer {
+  display: flex;
+  flex-direction: column;
+  
+  width: 90%;
+  height: 120%;
+  margin-top: -2rem;
+  margin-bottom: 4rem;
+  background-color: rgb(4, 21, 48);
+  /* box-shadow: 0rem 0rem 1rem 0.5rem rgba(0, 225, 255, 0.76); */
+  border-radius: 1rem;
+  align-items:left;
+  
+   
+}
+.PortDesign {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 4rem;
+  color: #10529c;
+  margin-left: 9%;
+}
+.PortText-Design {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: justify;
+  padding-left: 9%;
+  padding-right: 5%;
+}
+.PortSome-Design {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: justify;
+  padding-left: 9%;
+  padding-right: 5%;
+}
+.PortCards {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+.Amarals {
+  width: 28%;
+  background-color: #1583b6;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.Condo {
+  width: 28%;
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: #1583b6;
+}
+.Acera {
+  width: 28%;
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: #1583b6;
+}
+.PortClient {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: justify;
+  padding-left: 9%;
+  padding-right: 5%;
+  margin-bottom: 4rem;
+}
+.UsBodenImages {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.UsClients {
+  height: 5rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.UsBodenImagesII {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.UsClientsII {
+  height: 5rem;
+  border-radius: 1rem;
+}

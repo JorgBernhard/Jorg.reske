@@ -1,139 +1,102 @@
-.Header {
+.HeaderBar {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 9rem;
-    align-items: center;
-    justify-content: center;
-   
-
+    height: 7vh;
+    
     position: fixed;
-    margin-top: -1rem;
+    margin-top: 0rem;
+    background: linear-gradient(to right, #4e032fb0 30%, #003f64b0 100%);
+    justify-content: center;
+    align-items: center;
+}
+.LayoutContainer {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 8rem;
+    margin-left: 0rem;
+    justify-content:space-between;
+    align-items: center;
+     
     z-index: 10;
 }
-.HeaderContainer {
-    display: flex;
-    flex-direction: column;
-
-    width: 90%;
-
-    align-items: center;
-    justify-content: center;
-    
+.Portfolio {
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+    font-size: 4rem;
+    color: white;
+    margin-left: 2rem;
 }
-.HeaderOben {
-    display: flex;
-    flex-direction: row;
-    
-    width: 90%;
-    
-    gap: 3rem;
-    padding: 1rem;
-    align-items: center;
-    justify-content: flex-end;
-}
-.Mail {
-    all: unset;
-    height: 2rem;
-    cursor: pointer;
-}
-.Git {
-    all: unset;
-    height: 2rem;
-    cursor: pointer;
-}
-.Linked {
-    all: unset;
-    height: 2rem;
-    cursor: pointer;
-}
-.Whats {
-    all: unset;
-    height: 2rem;
-    cursor: pointer;
-}
-.HeaderDivison {
-    border-top: solid 0.1rem white;
-    width: 90%;
-    align-items:center;
-    justify-items: center;
-}
-.HeaderUnten {
+@media only screen and (max-width: 1000px) {
+  .Portfolio {
+    font-size: 2.6rem;
+   }}
+.Links {
     display: flex;
     flex-direction: row;
-    padding: 1rem;
-    width: 90%;
-    gap: 4rem;
     align-items: center;
-    justify-content: center;
+    gap: 1rem;
 }
-.HeaderHome {
-    all: unset;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    color: white;
-    height: 2rem;
-    margin-left: 17rem;
-
-    text-align: center;
+.PortuguesB {
+    width: 3rem;
     cursor: pointer;
 }
-.HeaderHome:hover {
-    color:rgb(0, 225, 255) ;
+.PortuguesB:hover {
+    opacity: 0.5;
 }
-.HeaderWork {
-    all: unset;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    color: white;
-    height: 2rem;
-
-
-    text-align: center;
+.English {
+    width: 3rem;
     cursor: pointer;
 }
-.HeaderWork:hover {
-    color: rgb(0, 225, 255) ;
+.English:hover {
+    opacity: 0.5;
 }
-.HeaderEducation {
-    all: unset;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
+.Rechts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 0rem;
+  }
+  .Mail {
+   
+   height: 1.8rem;
     color: white;
-    height: 2rem;
+    cursor: pointer;
+
+  }
+  .Mail:hover {
+    opacity: 0.5;
+}
+  .Whats {
+   
+    height: 1.8rem;
+     color: white;
+     cursor: pointer;
+   
+  }
+  .Whats:hover {
+    opacity: 0.5;
+}
+  .Git {
+   
+    height: 1.8rem;
+     color: white;
+     cursor: pointer;
+
+  }
+  .Git:hover {
+    opacity: 0.5;
+}
+  .Linked {
     
-    
-    text-align: center;
-    cursor: pointer;
-}
-.HeaderEducation:hover {
-    color: rgb(0, 225, 255) ;
-}
-.HeaderW4YDesign{
-    all: unset;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    color: white;
-    height: 2rem;
-
-
-    text-align: center;
-    cursor: pointer;
-}
-.HeaderW4YDesign:hover {
-    color: rgb(0, 225, 255) ;
-}
-.HeaderContact {
-    all: unset;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    color: white;
-    height: 2rem;
-
-
-    text-align: center;
-    cursor: pointer;
-}
-.HeaderContact:hover {
-    color: rgb(0, 225, 255) ;
+    height: 1.8rem;
+     color: white;
+     cursor: pointer;
+    margin-right: 3rem;
+  }
+  .Linked:hover {
+    opacity: 0.5;
 }

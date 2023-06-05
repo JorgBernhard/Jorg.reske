@@ -2,36 +2,33 @@ import Whats from '../assets/whatsapp.png';
 import Git from '../assets/github.png';
 import Linked from '../assets/linkedin.png';
 import Email from '../assets/contact-us.png';
-
-import '../css/header.css';
+import Portugues from '../assets/portugues.png';
+import English from '../assets/english.png';
 
 import { Outlet, Link } from "react-router-dom";
-
-const Header = () => {
+import '../css/header.css';
+const Layout = () => {
   return (
     <>
-    <nav className="Header">
-      <div className='HeaderContainer'>
-         <div className="HeaderOben">
-            <Link to='mailto:jorg.reske@gmail.com'><img className="Mail" src={Email} alt="email"></img></Link>
-            <Link target="_blank" rel="noreferrer" to={"https://api.whatsapp.com/send/?phone=5584999685830&text&type=phone_number&app_absent=0"} alt="whats"><img className="Whats" src={Whats} alt="Whats"></img></Link>
-            <Link target="_blank" rel="noreferrer" to={"https://github.com/JorgBernhard"} alt="github"><img className="Git" src={Git} alt="git"></img></Link>
-            <Link target="_blank" rel="noreferrer" to={"https://www.linkedin.com/in/jorg-reske-b327699b/"} alt="Linked"><img className="Linked" src={Linked} alt="linked"></img></Link>
+      <nav className="HeaderBar">
+        <div className='LayoutContainer'>
+            <h3 className="Portfolio">Portfolio</h3>
+            <div className="Links">
+              <Link to="/portugues"><img className="PortuguesB" src={Portugues} alt="port" /></Link>
+              <Link  to="/"><img className="English" src={English} alt="eng" /></Link>
+            </div>
+            <div className="Rechts">
+              <a href='mailto:jorg.reske@gmail.com'><img className="Mail" src={Email} alt="email"></img></a>
+              <a target="_blank" rel="noreferrer" href={"https://api.whatsapp.com/send/?phone=5584999685830&text&type=phone_number&app_absent=0"} alt="whats"><img className="Whats" src={Whats} alt="Whats"></img></a>
+              <a target="_blank" rel="noreferrer" href={"https://github.com/JorgBernhard"} alt="github"><img className="Git" src={Git} alt="git"></img></a>
+              <a target="_blank" rel="noreferrer" href={"https://www.linkedin.com/in/jorg-reske-b327699b/"} alt="aed"><img className="Linked" src={Linked} alt="linked"></img></a>
+            </div>
         </div>
-        <div className="HeaderDivison">
-        <div className="HeaderUnten">
-            <Link className="HeaderHome" to='/'>Home</Link>
-            <Link className="HeaderWork"  to='work'>Work</Link>
-            <Link className="HeaderEducation"  to='education'>Education</Link>
-            {/* <Link className="HeaderW4YDesign" target="_blank" rel="noreferrer"  to='https://www.w4y.net.br/'>W4Y Design</Link> */}
-            <Link className="HeaderContact"  to='contact'>Contact</Link>
-      </div>
-        </div>
-        </div>
-     </nav>
-      <Outlet />
-     </>
-  );
-}
+      </nav>
 
-export default Header;
+      <Outlet />
+    </>
+  )
+};
+
+export default Layout;

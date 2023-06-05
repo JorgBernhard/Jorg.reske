@@ -4,21 +4,19 @@ import './index.css';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./pages/Header";
-import Home from "./pages/Home";
-import Work from "./pages/Work";
-import Education from "./pages/Education";
-import Contact from "./pages/Contact";
+import Main from "./pages/Main";
+import Portugues from "./pages/Portugues";
+
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Header />}>
-          <Route index element={<Home />} />
-          <Route path="work" element={<Work />} />
-          <Route path="education" element={<Education />} />
-          <Route path="contact" element={<Contact />} />
-          </Route>
+          <Route path="/" element={<Header />}>
+          <Route index element={<Main />} />
+          <Route path="portugues" element={<Portugues />} />
+        
+      </Route>
       </Routes>
     </BrowserRouter>
   );

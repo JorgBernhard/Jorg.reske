@@ -8,3 +8,9 @@ font-family: 'Satisfy', cursive;
   .nav-icon img {
     right: 1rem;
    }}
+
+   <link rel="stylesheet" href="my-css-file.css" />
+   <script src="my-js-file.js" defer></script>
+
+   npm i -D react-router-dom
+   npm i -D react-router-dom@latest
