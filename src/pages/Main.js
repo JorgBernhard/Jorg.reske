@@ -17,7 +17,7 @@ import Siemens from '../assets/clientes/Simens.png';
 import Vestas from '../assets/clientes/vestas.png';
 import Windex from '../assets/clientes/windex.png';
 
-import Resume from '../assets/Jorg Reske Resume.pdf';
+import Resume from '../assets/JBR PM eng.pdf';
 
 const Main = () => {
     return <>
@@ -35,7 +35,7 @@ const Main = () => {
             </div>
          </div>
          <div className="RightContainer">
-            <div className="EngResumePo">
+            <div className="EngResume">
          <a className="Resume" href={Resume} download="Resume">Download my Resume</a>
          </div>
             <h3 className="Bem">Welcome to my Portfolio</h3>
@@ -47,7 +47,7 @@ Of course, since all projects have defined timelines, you have to apply pressure
             <div className="Second">
             <img className='Agile' src={Agile} alt="agile"></img>
             <h4 className="Text-Agile">You need Skills and very good organsation
-            ideas. Planing like TimePlaner, Agile Methodologies are perfect. 
+            ideas. Planing like TimePlaner, Agile Methodologies are perfect. <br></br> <br></br>
             Softskills are must.
             </h4>
             </div>
@@ -63,9 +63,9 @@ Today, I have created over a hundred web pages, banners, and logos.
                Here some of my design.
             </h4>
             <div className="Cards">
-            <img className='Amarals' src={Amarals} alt="Amarals"></img>
-            <img className='Condo' src={Condo} alt="Condo"></img>
-            <img className='Acera' src={Acera} alt="Acera"></img>
+               <img className='Amarals' src={Amarals} alt="Amarals"></img>
+               <img className='Condo' src={Condo} alt="Condo"></img>
+               <img className='Acera' src={Acera} alt="Acera"></img>
             </div>
             <h3 className="EngClient">Some of my Clients.</h3>
             <div className='UsBodenImages'>

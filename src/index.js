@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./pages/Header";
 import Main from "./pages/Main";
 import Portugues from "./pages/Portugues";
-
+import German from "./pages/German";
 
 export default function App() {
   return (
@@ -15,7 +15,7 @@ export default function App() {
           <Route path="/" element={<Header />}>
           <Route index element={<Main />} />
           <Route path="portugues" element={<Portugues />} />
-        
+          <Route path="german" element={<German />} />
       </Route>
       </Routes>
     </BrowserRouter>

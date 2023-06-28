@@ -53,6 +53,13 @@
 .English:hover {
     opacity: 0.5;
 }
+.GermanL {
+  width: 3rem;
+  cursor: pointer;
+}
+.GermanL:hover {
+  opacity: 0.5;
+}
 .Rechts {
     display: flex;
     flex-direction: row;

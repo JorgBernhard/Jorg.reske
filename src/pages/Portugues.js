@@ -18,7 +18,7 @@ import Siemens from '../assets/clientes/Simens.png';
 import Vestas from '../assets/clientes/vestas.png';
 import Windex from '../assets/clientes/windex.png';
 
-import Resume from '../assets/Jorg Reske Resume.pdf';
+import ResumeP from '../assets/Jorg Reske Resume.pdf';
 
 const Portugues = () => {
     return <>
@@ -36,14 +36,21 @@ const Portugues = () => {
             </div>
          </div>
          <div className="RightContainer">
-         <div className="EngResumePo">
-         <a className="Resume" href={Resume} download="Resume">Download my Resume</a>
+         <div className="PortResumePo">
+         <a className="PortResume" href={ResumeP} download="ResumeP">Baixar meu Resume</a>
          </div>
             <h3 className="PortBem">Bem Vindo ao meu Portfolio</h3>
             <h4 className="PortText-Right">Obrigado pelo Interesse. <br></br> <br></br>
-            Eu trabalho diretamente para uma empresa ou como consultor, organizando e reestruturando áreas e seções dela, obtendo um nível de eficiência maior e mais ágil. Tenho de 8 a 10 anos de experiência atuando em várias empresas e segmentos. <br></br><br></br>
-Durante os anos, aprendi que não importa a elegância das pessoas se o lugar está no último andar. Sua equipe precisa acreditar em você, e eles precisam receber respeito e confiança para fazer o trabalho deles. <br></br><br></br>
-Claro, como todos os projetos, de certa forma alinhados a uma linha do tempo, você precisa pressionar no momento certo e também fazer elogios. Gerenciamento é uma espada de dois lados. Pense sobre isso...
+            Eu trabalho diretamente para uma empresa ou como consultor, organizando e 
+            reestruturando áreas e seções dela, obtendo um nível de eficiência maior e mais
+             ágil. Tenho de 8 a 10 anos de experiência atuando em várias empresas e segmentos.
+              <br></br><br></br>
+              Durante os anos, aprendi que não importa a elegância das pessoas se o lugar está 
+              no último andar. Sua equipe precisa acreditar em você, e eles precisam receber 
+              respeito e confiança para fazer o trabalho deles. <br></br><br></br>
+              Claro, como todos os projetos, de certa forma alinhados a uma linha do tempo, 
+              você precisa pressionar no momento certo e também fazer elogios. Gerenciamento 
+              é uma espada de dois lados. <br></br>Pense sobre isso...
              </h4>
             <div className="PortSecond">
             <img className='PortAgile' src={Agile} alt="agile"></img>

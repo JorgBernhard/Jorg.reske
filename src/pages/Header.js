@@ -4,9 +4,11 @@ import Linked from '../assets/linkedin.png';
 import Email from '../assets/contact-us.png';
 import Portugues from '../assets/portugues.png';
 import English from '../assets/english.png';
+import GermanL from '../assets/German.png';
 
 import { Outlet, Link } from "react-router-dom";
 import '../css/header.css';
+
 const Layout = () => {
   return (
     <>
@@ -16,6 +18,7 @@ const Layout = () => {
             <div className="Links">
               <Link to="/portugues"><img className="PortuguesB" src={Portugues} alt="port" /></Link>
               <Link  to="/"><img className="English" src={English} alt="eng" /></Link>
+              <Link  to="/german"><img className="GermanL" src={GermanL} alt="german" /></Link>
             </div>
             <div className="Rechts">
               <a href='mailto:jorg.reske@gmail.com'><img className="Mail" src={Email} alt="email"></img></a>
