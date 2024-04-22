@@ -1,0 +1,174 @@
+.Home {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  background:linear-gradient(to right, rgb(185, 57, 57),rgb(205, 238, 21),rgb(72, 238, 21),rgb(43, 4, 136));
+  align-items: center;
+  justify-content: center;
+
+}
+.HomeLogo {
+  animation: HomeLogo-spin infinite 20s linear;
+}
+.HomeHead {
+  display: flex;
+  flex-direction: row;
+  
+  width: 90%;
+  height: 90%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 2rem 0.1rem rgb(162, 236, 233);
+  background-image: url('../assets/background.jpg');
+  gap: 4rem;
+}
+.HomeSLeft {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  justify-content: space-between;
+  border-radius: 1rem 0rem 0rem 1rem;
+  background:linear-gradient(to right, rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0,0));
+}
+.HomeLogo {
+  width: 8rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+@keyframes HomeLogo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.HomeLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  margin-left: 1rem;
+}
+.MyHome {
+  all: unset;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+.MyHome:hover {
+  color: rgb(255, 0, 0);
+}
+.Projects {
+  all: unset;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+.Projects:hover {
+  color: rgb(255, 0, 0);
+}
+.Me {
+  all: unset;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+.Me:hover {
+  color: rgb(255, 0, 0);
+}
+.Imagens {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-end;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  gap:  1rem;
+}
+.Linked {
+  width: 2rem;
+}
+.Github {
+  width: 2rem;
+}
+.Email {
+  width: 2rem;
+}
+.Whats {
+  width: 2rem;
+}
+.HomeCenter {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  align-items: center;
+}
+.HomeName {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: rgb(192, 192, 192);
+
+  margin-top: 4rem;
+}
+.HomeInfo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-align: justify;
+  color: rgb(192, 192, 192);
+  width: 24rem;
+
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 1rem;
+}
+
+.HomeSRight {
+  display: flex;
+  flex-direction: column;
+  
+  width: 40rem;
+  border-radius: 0rem 1rem 1rem 0rem;
+  
+  align-items: center;
+
+}
+.Some {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(192, 192, 192);
+
+  margin-top: 4.5rem;
+  margin-bottom: 3rem;
+}
+.HomeBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.Restaurant {
+  width: 20rem;
+
+  border-radius: 1rem;
+  border: solid 0.2rem  rgb(192, 192, 192);
+  box-shadow: 0rem 0rem 2rem 0.1rem rgb(162, 236, 233);
+}
+.IR {
+  width: 20rem;
+
+
+  border-radius: 1rem;
+  border: solid 0.2rem  rgb(192, 192, 192);
+  box-shadow: 0rem 0rem 2rem 0.1rem rgb(162, 236, 233);
+}

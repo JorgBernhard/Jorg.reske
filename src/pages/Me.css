@@ -1,0 +1,151 @@
+.MePage {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(185, 57, 57), rgb(205, 238, 21), rgb(72, 238, 21), rgb(43, 4, 136));
+  align-items: center;
+  justify-content: center;
+
+}
+
+.MeHead {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 90%;
+ 
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 2rem 0.1rem rgb(162, 236, 233);
+  background-image: url('../assets/Jorg-work.png'); 
+  background-size: cover;
+  gap: 4rem;
+}
+
+.MeLogo {
+  animation: MeLogo-spin infinite 20s linear;
+}
+.MeSLeft {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  justify-content: space-between;
+  border-radius: 1rem 0rem 0rem 1rem;
+  background:linear-gradient(to right, rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0,0));
+}
+.MeLogo {
+  width: 8rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+@keyframes MeLogo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.MeLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  margin-left: 1rem;
+}
+.MyMe {
+  all: unset;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+.MyMe:hover {
+  color: rgb(255, 0, 0);
+}
+.Projects {
+  all: unset;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+.Projects:hover {
+  color: rgb(255, 0, 0);
+}
+.Me {
+  all: unset;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+.Me:hover {
+  color: rgb(255, 0, 0);
+}
+.Imagens {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-end;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  gap:  1rem;
+}
+.English-Resume {
+  all: unset;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(241, 248, 174);
+  
+  cursor: pointer;
+}
+.English-Resume:hover {
+  color: rgb(255, 0, 0);
+}
+.Linked {
+  width: 2rem;
+}
+.Github {
+  width: 2rem;
+}
+.Email {
+  width: 2rem;
+}
+.Whats {
+  width: 2rem;
+}
+.MeRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: -4rem;
+}
+.Behind {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(192, 192, 192);
+
+  margin-top: 2rem;
+}
+.Me-Definition {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(192, 192, 192);
+}
+.MeText {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgb(192, 192, 192);
+  text-align: justify;
+
+  width: 40rem;
+}

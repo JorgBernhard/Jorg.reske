@@ -3,21 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./pages/Header";
-import Main from "./pages/Main";
-import Portugues from "./pages/Portugues";
-import German from "./pages/German";
+
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Me from "./pages/Me";
+
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route path="/" element={<Header />}>
-          <Route index element={<Main />} />
-          <Route path="portugues" element={<Portugues />} />
-          <Route path="german" element={<German />} />
-      </Route>
-      </Routes>
+          <Route index element={<Home />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/Me" element={<Me />} />
+   
+       </Routes>
     </BrowserRouter>
   );
 }
