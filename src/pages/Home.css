@@ -110,6 +110,7 @@
   flex-direction: column;
   width: 40rem;
   align-items: center;
+  justify-content: center;
 }
 .HomeName {
   font-family: "Montserrat", sans-serif;
@@ -117,7 +118,7 @@
   font-size: 1.6rem;
   color: rgb(192, 192, 192);
 
-  margin-top: 4rem;
+  margin-top: 0rem;
 }
 .HomeInfo {
   font-family: "Montserrat", sans-serif;
@@ -127,7 +128,7 @@
   color: rgb(192, 192, 192);
   width: 24rem;
 
-  margin-top: 3rem;
+  margin-top: 0rem;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.541);
   border-radius: 1rem;
@@ -141,7 +142,7 @@
   border-radius: 0rem 1rem 1rem 0rem;
   
   align-items: center;
-
+  justify-content: center;
 }
 .Some {
   font-family: "Montserrat", sans-serif;
@@ -149,7 +150,7 @@
   font-size: 1.2rem;
   color: rgb(192, 192, 192);
 
-  margin-top: 4.5rem;
+  margin-top: 0rem;
   margin-bottom: 3rem;
 }
 .HomeBox {
