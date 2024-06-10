@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './Resume.css';
 
 import Picture from '../assets/JorgB.png'
+import English from '../assets/CV Jorg English.pdf'
+import Portugues from '../assets/CV Jorg Portugues.pdf'
 
 function Resume() {
   return (
@@ -24,6 +26,10 @@ function Resume() {
         
        <div className="ResumeRight">
        <h2 className="ResumeTitle">RESUME</h2>
+       <div className="Resumes">
+       <a className="English-Resume" href={English} download="English">Full Resume English</a>
+       <a className="Portugues-Resume" href={Portugues} download="portugues">Resume completo Portugues</a>
+       </div>
        <div className="ResumeJobs">
        <h4 className="ResumeWork">EXPERIENCE</h4>
        <h2 className='ReumeHeader'>"Until 2024, I pursued my studies while also taking on various freelance projects."</h2>

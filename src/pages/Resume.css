@@ -92,6 +92,28 @@
   margin-bottom: 0rem;
   
 }
+.Resumes {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+.English-Resume {
+  all: unset;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  background-color: rgb(212, 164, 5);
+  cursor: pointer;
+}
+.Portugues-Resume {
+  all: unset;
+  font-size: 0.8rem;
+  background-color: rgb(212, 164, 5);
+  padding: 0.3rem;
+  cursor: pointer;
+}
+.English-Resume:hover, .Portugues-Resume:hover {
+  opacity: 50%;
+}
 .ReumeHeader{
   font-family: "Roboto", sans-serif;
   font-weight: 700;
