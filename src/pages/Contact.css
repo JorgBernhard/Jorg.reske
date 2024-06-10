@@ -1,0 +1,162 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 100vw;
+  
+  background-image: url('../assets/marmorBack.png');
+  background-size:cover;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactHeader {
+  display: flex;
+  flex-direction: row;
+
+  height: 90%;
+  width: 70rem;
+
+  background-color: #bbbbbb;
+
+  box-shadow: 0.5rem 0.5rem 1rem 0.5rem rgb(37, 37, 37);
+ 
+}
+.ContactLeft {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../assets/engrenagem.png');
+  width: 15rem;
+  background-color: rgb(212, 164, 5);
+  }
+  .JorgB {
+      width: 15rem;
+      height: 15rem;
+      background-color: #838383;
+      margin-bottom: 4rem;
+  }
+  .ContactNaveBar {
+      display: flex;
+      flex-direction: column;
+      height: 85%;
+      gap: 1rem;
+      align-items: center;
+     
+
+}
+.ContactContact {
+  all: unset;
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 0.5rem;
+  background-color: rgb(212, 164, 5);
+  border: solid 0.01rem black;
+  cursor: pointer;
+  color: #838383;
+  width: 10rem;
+}
+.ContactHome, .ContactAbout, .ContactResume, .ContactPortfolio {
+  all: unset;
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 0.5rem;
+  background-color: rgb(212, 164, 5);
+  border: solid 0.01rem black;
+  width: 10rem;
+  cursor: pointer;
+}
+.ContactHome:hover, .ContactContact:hover, .ContactResume:hover, .ContactContact:hover, .ContactContact:hover {
+  opacity: 30%;
+}
+.ContactRight {
+  display: flex;
+  flex-direction: column;
+
+  width: 55rem;
+
+  align-items: center;
+  margin-top: 4rem;
+  
+}
+.ContactTitle {
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  padding: 1rem 10rem 1rem 10rem;
+  border: solid 0.1rem gray;
+ 
+
+
+  }
+  .ContactLine {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  .ContactInfo1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+  .ContactInfo2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 1.6rem;
+  }
+  .ContactInfo3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+  .Happy {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    width: 45rem;
+    margin-bottom: 2rem;
+  }
+  .Icons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    gap: 4rem;
+  }
+  .ComputerIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  .Computer {
+    height: 6rem;
+  }
+.ComputerText {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+  .TelefoneIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  .Telefone {
+    height: 6rem;
+  }
+  .TelefoneText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+  .ContactThanks {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+  }

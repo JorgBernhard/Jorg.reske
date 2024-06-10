@@ -1,0 +1,223 @@
+.About {
+    display: flex;
+    flex-direction: column;
+  
+    height: 100vh;
+    width: 100vw;
+    
+    background-image: url('../assets/marmorBack.png');
+    background-size:cover;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .AboutHeader {
+    display: flex;
+    flex-direction: row;
+  
+    height: 90%;
+    width: 70rem;
+  
+    background-color: #bbbbbb;
+  
+    box-shadow: 0.5rem 0.5rem 1rem 0.5rem rgb(37, 37, 37);
+   
+  }
+  .AboutLeft {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/engrenagem.png');
+    width: 15rem;
+    background-color: rgb(212, 164, 5);
+    }
+    .JorgB {
+        width: 15rem;
+        height: 15rem;
+        background-color: #838383;
+        margin-bottom: 4rem;
+    }
+    .AboutNaveBar {
+        display: flex;
+        flex-direction: column;
+        height: 85%;
+        gap: 1rem;
+        align-items: center;
+       
+  
+  }
+  .AboutAbout {
+    all: unset;
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    padding: 0.5rem;
+    background-color: rgb(212, 164, 5);
+    border: solid 0.01rem black;
+    cursor: pointer;
+    color: #838383;
+    width: 10rem;
+  }
+  .AboutHome, .AboutResume, .AboutPortfolio, .AboutContact {
+    all: unset;
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    padding: 0.5rem;
+    background-color: rgb(212, 164, 5);
+    border: solid 0.01rem black;
+    width: 10rem;
+    cursor: pointer;
+  }
+  .AboutHome:hover, .AboutAbout:hover, .AboutResume:hover, .AboutPortfolio:hover, .AboutContact:hover {
+    opacity: 30%;
+  }
+
+.AboutRight {
+    display: flex;
+    flex-direction: column;
+
+    width: 55rem;
+
+    align-items: center;
+    justify-content: space-around;
+}
+.AboutMe {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    padding: 1rem 10rem 1rem 10rem;
+    border: solid 0.1rem gray;
+}
+.SobreMe {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    padding: 1rem;
+    border: solid 0.1rem gray;
+}
+.What {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: left;
+    margin-bottom: -2rem;
+}
+.AboutText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-align: justify;
+    width: 50rem;
+}
+.AboutBoxes {
+    display: flex;
+    flex-direction: row;
+    gap:0.08rem;
+}
+.Box1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+.WebPages1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    background-color: rgb(41, 41, 41);
+    padding: 2rem  1.4rem  0rem  1.4rem;
+    color: rgb(212, 164, 5);
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.WebPages2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    background-color: rgb(41, 41, 41);
+    padding: 0rem  1.4rem  2rem  1.4rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.Company1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    background-color: rgb(41, 41, 41);
+    padding: 2rem  1.4rem  0rem  1.4rem;
+    color: rgb(212, 164, 5);
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.Company2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    background-color: rgb(41, 41, 41);
+    padding: 0rem  1.4rem  2rem  1.4rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.Bussines1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    background-color: rgb(41, 41, 41);
+    padding: 2rem  1.4rem  0rem  1.4rem;
+    color: rgb(212, 164, 5);
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.Bussines2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    background-color: rgb(41, 41, 41);
+    padding: 0rem  1.4rem  2rem  1.4rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.Projects1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    background-color: rgb(41, 41, 41);
+    padding: 2rem  1.4rem  0rem  1.4rem;
+    color: rgb(212, 164, 5);
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.Projects2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    background-color: rgb(41, 41, 41);
+    padding: 0rem  1.4rem  2rem  1.4rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.Administration1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    background-color: rgb(41, 41, 41);
+    padding: 2rem  1.4rem  0rem  1.4rem;
+    color: rgb(212, 164, 5);
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.Administration2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    background-color: rgb(41, 41, 41);
+    padding: 0rem  1.4rem  2rem  1.4rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
