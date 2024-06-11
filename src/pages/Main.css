@@ -60,7 +60,9 @@
   font-size: 3rem;
   font-weight: 900;
   margin-top: 0rem;
- 
+  background-color: black;
+  padding: 0.1rem 2.25rem 0.1rem 0.5rem;
+  
 }
 .MainTitle {
   text-align: center;
