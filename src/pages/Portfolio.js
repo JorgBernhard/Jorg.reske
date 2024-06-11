@@ -12,7 +12,7 @@ import Maycontec from '../work/Maycontec.png'
 import Muaythai from '../work/Muaythai.png'
 import Music from '../work/Music.png'
 import Restaurant from '../work/Restaurant.png'
-import Restaurant02 from '../work/Restaurant02.png'
+import Restaurant02 from '../work/Cafe.png'
 import Restaurant03 from '../work/Restaurant03.png'
 import w4y from '../work/w4y.png'
 

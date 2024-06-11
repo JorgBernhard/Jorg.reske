@@ -79,7 +79,7 @@
   width: 55rem;
 
   align-items: center;
-  margin-top: 4rem;
+  justify-content: space-evenly;
   
 }
 .ContactTitle {
