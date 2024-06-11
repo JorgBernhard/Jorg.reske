@@ -87,6 +87,7 @@
   padding: 1rem 10rem 1rem 10rem;
   border: solid 0.1rem gray;
   margin-bottom: 0rem;
+  background-color: rgb(212, 164, 5);
   }
   .PortfolioBoxes {
     display: flex;
