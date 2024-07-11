@@ -28,7 +28,7 @@ function Contact() {
           </nav>
        </div>
        <div className="ContactRight">
-       <h2 className="ContactTitle">Contact</h2>
+       <h2 className="ContactTitle">CONTACT</h2>
        <div className="ContactLine">
           <h4 className="ContactInfo1">Feel</h4>
           <h4 className="ContactInfo2">free</h4>

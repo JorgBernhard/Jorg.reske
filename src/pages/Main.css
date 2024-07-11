@@ -1,122 +1,278 @@
 .Main {
-  display: flex;
-  flex-direction: column;
-
-  height: 100vh;
-  width: 100vw;
-  
-  background-image: url('../assets/marmorBack.png');
-  background-size:cover;
-  
-  align-items: center;
-  justify-content: center;
-}
-
-.Main-header {
-  display: flex;
-  flex-direction: row;
-
-  height: 90%;
-  width: 70rem;
-  background-color: #bbbbbb;
-
-  box-shadow: 0.5rem 0.5rem 1rem 0.5rem rgb(37, 37, 37);
-  align-items: center;
-  justify-content: center;
-
-}
-.MainLeft {
-  display: flex;
-  flex-direction: column;
-
-  height: 100%;
-  width: 32rem;
-
-  margin-left: 4rem;
-  justify-content: center;
-  text-align: left;
-}
-.Hallo {
-  color: rgb(54, 54, 54);
-  font-family: "Roboto", sans-serif;
-  font-size: 2.4rem;
-  font-weight: 900;
-}
-.MainTextFull {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-}
-.MainFront {
-  color: rgb(54, 54, 54);
-  font-family: "Roboto", sans-serif;
-  font-size: 3rem;
-  font-weight: 900;
-  margin-top: 0rem;
-}
-.MainNome {
-  color: rgb(236, 192, 45);
-  font-family: "Roboto", sans-serif;
-  font-size: 3rem;
-  font-weight: 900;
-  margin-top: 0rem;
-  background-color: black;
-  padding: 0.1rem 2.25rem 0.1rem 0.5rem;
-  
-}
-.MainTitle {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  width: 18rem;
-  padding: 0.3rem;
-  border-radius: 0.2rem;
-  background-color: rgb(212, 164, 5);
-  color: rgb(54, 54, 54);
-  font-size: 0.8rem;
-  margin-top: 0rem;
-}
-.MainText {
-  color: rgb(54, 54, 54);
-  font-family: "Roboto", sans-serif;
-  width: 26rem;
-  text-align: justify;
-  font-size: 0.8rem;
-  margin-top: 2rem;
-}
-
-.MainRight {
-  display: flex;
-  flex-direction: row;
-
-  background-color: rgb(0, 0, 0);
-  height: 100%;
-  width: 35rem;
-
-  align-items: center;
-  justify-content: flex-end;
-}
-.Jorg {
-  display: flex;
-  flex-direction: column;
-
-  height:30rem;
-
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/marmorBack.png');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
   }
+  
+  .Main-header {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 70rem;
+    background-color: #bbbbbb;
+    box-shadow: 0.5rem 0.5rem 1rem 0.5rem rgb(37, 37, 37);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .MainLeft {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 32rem;
+    margin-left: 4rem;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .Hallo {
+    color: rgb(54, 54, 54);
+    font-family: "Roboto", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 900;
+  }
+  
+  .MainTextFull {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .MainFront {
+    color: rgb(54, 54, 54);
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+
+    padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+  }
+  
+  .MainNome {
+    color: rgb(236, 192, 45);
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    background-color: black;
+    padding: 0.1rem 2rem 0.1rem 0.5rem;
+  }
+  
+  .MainTitle {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    width: 18rem;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    background-color: rgb(212, 164, 5);
+    color: rgb(54, 54, 54);
+    font-size: 0.8rem;
+    margin-top: 0rem;
+  }
+  
+  .MainText {
+    color: rgb(54, 54, 54);
+    font-family: "Roboto", sans-serif;
+    width: 26rem;
+    text-align: justify;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+  }
+  
+  .MainRight {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 35rem;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .Jorg {
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
   .NaveBar {
     display: flex;
     flex-direction: column;
     background-color: #6e6e6e6c;
-    padding: 01.5rem 0.5rem 1.5rem 0.5rem;
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
     border-radius: 2rem;
-    
     gap: 1rem;
     margin-right: 0.5rem;
+  }
   
-}
-.MainHome, .MainAbout, .MainResume, .MainPortfolio, .MainContact {
-  height: 2rem;
-}
-
-.MainHome:hover, .MainAbout:hover, .MainResume:hover, .MainPortfolio:hover, .MainContact:hover {
-  opacity: 50%;
-}
+  .MainHome, .MainAbout, .MainResume, .MainPortfolio, .MainContact {
+    height: 2rem;
+  }
+  
+  .MainHome:hover, .MainAbout:hover, .MainResume:hover, .MainPortfolio:hover, .MainContact:hover {
+    opacity: 50%;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1200px) {
+    .Main-header {
+      width: 60rem;
+    }
+  
+    .MainLeft, .MainRight {
+      width: 100%;
+      margin-left: 0;
+      justify-content: center;
+      align-items: center;
+    }
+    .MainFront {
+        font-size: 2rem;
+    }
+    .MainNome {
+        font-size: 2rem;
+        width: 100%;
+        text-align: right;
+        margin-top: 1rem;
+      }
+      .MainText {
+        width: 22rem;
+        text-align: justify;
+      
+      }
+    .MainRight {
+      justify-content: center;
+    }
+  
+    .NaveBar {
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .Main-header {
+      flex-direction: column;
+      height: auto;
+      width: 80%;
+    }
+  
+    .MainLeft, .MainRight {
+      width: 100%;
+    }
+  
+    .MainNome, .MainTitle {
+      font-size: 1.5rem;
+      width: 100%;
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .MainText {
+        font-size: 1rem;
+        width: 100%;
+        text-align: justify;
+        width: 30rem;
+    }
+    .NaveBar {
+      flex-direction: column;
+      gap: 0.5rem;
+      margin: 0;
+      padding: 0.5rem;
+    }
+  
+    .Hallo {
+      font-size: 1.8rem;
+    }
+  
+    .MainNome {
+      font-size: 2rem;
+      padding: 0.1rem 1.25rem 0.1rem 0.5rem;
+    }
+  
+    .MainFront {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Main-header {
+      width: 90%;
+    }
+  
+    .MainLeft {
+      width: 100%;
+      padding: 0 1rem;
+    }
+  
+    .MainRight {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .MainNome, .MainTitle {
+      font-size: 1rem;
+      width: 100%;
+    }
+    .MainText {
+        font-size: 1rem;
+        width: 100%;
+        text-align: justify;
+        width: 30rem;
+    }
+    .Hallo {
+      font-size: 1.5rem;
+    }
+  
+    .MainNome {
+      font-size: 1.5rem;
+      padding: 0.1rem 1rem 0.1rem 0.5rem;
+    }
+  
+    .MainFront {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .Main-header {
+      width: 100%;
+    }
+  
+    .MainFront, .MainNome {
+        align-items: center;
+      font-size: 0.8rem;
+    }
+    .MainText {
+        font-size: 0.8rem;
+        text-align: justify;
+        width: 20rem;
+    }
+    .Hallo {
+      font-size: 1.2rem;
+    }
+  
+    .MainNome {
+      font-size: 1.2rem;
+      padding: 0.1rem 0.75rem 0.1rem 0.5rem;
+    }
+  
+    .MainFront {
+      font-size: 1.2rem;
+    }
+  
+    .NaveBar {
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 0.5rem;
+      margin-right: 10rem;
+    }
+  }
+  
